@@ -1,0 +1,671 @@
+[INFO] 2024/05/22 08:54:35 config.go:99: load env
+[INFO] 2024/05/22 08:54:35 main.go:54: 
+   ____     _____    _____            ______   _   _    _____   _____   _   _   ______ 
+  / __ \   / ____|  / ____|          |  ____| | \ | |  / ____| |_   _| | \ | | |  ____|
+ | |  | | | (___   | (___    ______  | |__    |  \| | | |  __    | |   |  \| | | |__   
+ | |  | |  \___ \   \___ \  |______| |  __|   | . ` | | | |_ |   | |   | . ` | |  __|  
+ | |__| |  ____) |  ____) |          | |____  | |\  | | |__| |  _| |_  | |\  | | |____ 
+  \____/  |_____/  |_____/           |______| |_| \_|  \_____| |_____| |_| \_| |______|
+                                                                                       
+                                                                                       
+[INFO] 2024/05/22 08:54:35 main.go:57: version: 3.8.1.GA
+[INFO] 2024/05/22 08:54:35 vuln.go:57: loading vuln data...
+[INFO] 2024/05/22 08:54:36 es.go:57: Elasticsearch Connect Success
+[WARN] 2024/05/22 08:54:36 es.go:193: status code:503 url:http://192.168.172.30:8017/vuln/_search?scroll=1m
+[INFO] 2024/05/22 08:54:36 license.go:11: loading license data...
+[WARN] 2024/05/22 08:54:36 es.go:193: status code:503 url:http://192.168.172.30:8017/license/_search?scroll=1m
+[INFO] 2024/05/22 08:54:36 cache.go:40: Badger Connect Success
+[INFO] 2024/05/22 08:54:36 service.go:25: start grpc service, listen port: 4396
+[INFO] 2024/05/22 08:55:44 task.go:32: [0/10000] waiting task: 56241951365791744:[Iast|Normol|Fast|-1|false](http://192.168.172.77:8080/iast/api-v1/open-api/oss/getNodeScaData?ossTaskId=1793204084991414273)
+[INFO] 2024/05/22 08:55:44 task.go:86: task 56241951365791744 status: [Task Waiting]
+[INFO] 2024/05/22 08:55:44 task.go:64: task 56241951365791744 progress: [Task Queuing]
+[INFO] 2024/05/22 08:55:44 main.go:100: running task: 1, waiting task: 0
+[INFO] 2024/05/22 08:55:44 task.go:86: task 56241951365791744 status: [Task Analyzing]
+[INFO] 2024/05/22 08:55:44 task.go:64: task 56241951365791744 progress: [Data Downloading]
+[INFO] 2024/05/22 08:55:45 task.go:32: [0/10000] waiting task: 56241951380865024:[Iast|Normol|Fast|-1|false](http://192.168.172.77:8080/iast/api-v1/open-api/oss/getNodeScaData?ossTaskId=1793204086014824450)
+[INFO] 2024/05/22 08:55:45 task.go:86: task 56241951380865024 status: [Task Waiting]
+[INFO] 2024/05/22 08:55:45 task.go:64: task 56241951380865024 progress: [Task Queuing]
+[INFO] 2024/05/22 08:55:45 task.go:32: [1/10000] waiting task: 56241951380865025:[Iast|Normol|Fast|-1|false](http://192.168.172.77:8080/iast/api-v1/open-api/oss/getNodeScaData?ossTaskId=1793204086304231425)
+[INFO] 2024/05/22 08:55:45 task.go:86: task 56241951380865025 status: [Task Waiting]
+[INFO] 2024/05/22 08:55:45 task.go:64: task 56241951380865025 progress: [Task Queuing]
+[INFO] 2024/05/22 08:55:45 task.go:32: [2/10000] waiting task: 56241951380865026:[Iast|Normol|Fast|-1|false](http://192.168.172.77:8080/iast/api-v1/open-api/oss/getNodeScaData?ossTaskId=1793204086581055489)
+[INFO] 2024/05/22 08:55:45 task.go:86: task 56241951380865026 status: [Task Waiting]
+[INFO] 2024/05/22 08:55:45 task.go:64: task 56241951380865026 progress: [Task Queuing]
+[INFO] 2024/05/22 08:55:45 task.go:32: [3/10000] waiting task: 56241951380865027:[Iast|Normol|Fast|-1|false](http://192.168.172.77:8080/iast/api-v1/open-api/oss/getNodeScaData?ossTaskId=1793204086862073858)
+[INFO] 2024/05/22 08:55:45 task.go:86: task 56241951380865027 status: [Task Waiting]
+[INFO] 2024/05/22 08:55:45 main.go:100: running task: 2, waiting task: 3
+[INFO] 2024/05/22 08:55:45 task.go:64: task 56241951380865027 progress: [Task Queuing]
+[INFO] 2024/05/22 08:55:45 main.go:100: running task: 3, waiting task: 2
+[INFO] 2024/05/22 08:55:45 main.go:100: running task: 4, waiting task: 1
+[INFO] 2024/05/22 08:55:45 main.go:100: running task: 5, waiting task: 0
+[INFO] 2024/05/22 08:55:45 task.go:86: task 56241951380865024 status: [Task Analyzing]
+[INFO] 2024/05/22 08:55:45 task.go:64: task 56241951380865024 progress: [Data Downloading]
+[INFO] 2024/05/22 08:55:45 task.go:86: task 56241951380865027 status: [Task Analyzing]
+[INFO] 2024/05/22 08:55:45 task.go:64: task 56241951380865027 progress: [Data Downloading]
+[INFO] 2024/05/22 08:55:45 task.go:86: task 56241951380865025 status: [Task Analyzing]
+[INFO] 2024/05/22 08:55:45 task.go:64: task 56241951380865025 progress: [Data Downloading]
+[INFO] 2024/05/22 08:55:45 task.go:86: task 56241951380865026 status: [Task Analyzing]
+[INFO] 2024/05/22 08:55:45 task.go:64: task 56241951380865026 progress: [Data Downloading]
+[INFO] 2024/05/22 08:55:47 task.go:64: task 56241951380865025 progress: [Task Scanning]
+[INFO] 2024/05/22 08:55:47 task.go:64: task 56241951380865025 progress: [Cleaning Data]
+[INFO] 2024/05/22 08:55:47 task.go:64: task 56241951380865025 progress: [Searching Vulns]
+[INFO] 2024/05/22 08:55:47 task.go:64: task 56241951380865026 progress: [Task Scanning]
+[INFO] 2024/05/22 08:55:47 task.go:64: task 56241951380865026 progress: [Cleaning Data]
+[INFO] 2024/05/22 08:55:47 task.go:64: task 56241951380865026 progress: [Searching Vulns]
+[INFO] 2024/05/22 08:55:47 task.go:64: task 56241951365791744 progress: [Task Scanning]
+[INFO] 2024/05/22 08:55:47 task.go:64: task 56241951365791744 progress: [Cleaning Data]
+[INFO] 2024/05/22 08:55:47 task.go:64: task 56241951365791744 progress: [Searching Vulns]
+[INFO] 2024/05/22 08:55:47 task.go:64: task 56241951380865027 progress: [Task Scanning]
+[INFO] 2024/05/22 08:55:47 task.go:64: task 56241951380865027 progress: [Cleaning Data]
+[INFO] 2024/05/22 08:55:47 task.go:64: task 56241951380865027 progress: [Searching Vulns]
+[INFO] 2024/05/22 08:55:47 task.go:64: task 56241951380865024 progress: [Task Scanning]
+[INFO] 2024/05/22 08:55:47 task.go:64: task 56241951380865024 progress: [Cleaning Data]
+[INFO] 2024/05/22 08:55:47 task.go:64: task 56241951380865024 progress: [Searching Vulns]
+[INFO] 2024/05/22 08:55:49 result.go:51: task 56241951380865024 components count: 1 save success
+[INFO] 2024/05/22 08:55:49 task.go:64: task 56241951380865024 progress: [Task Compelete]
+[INFO] 2024/05/22 08:55:49 task.go:86: task 56241951380865024 status: [Task Complete]
+[DEBUG] 2024/05/22 08:55:49 engine.go:89: task 56241951380865024:
+
+[xerces:xercesImpl:2.11.0]<Java>[0]:(/opt/java_baji/tomcat/apache-tomcat-6.0.53/webapps/WebGoat/WEB-INF/lib/xercesImpl-2.11.0.jar){Success}[]{Apache-2.0}[2.11.0/2.12.2][2013-02-20=>2022-01-27]
+
+[INFO] 2024/05/22 08:55:49 sync.go:39: terminate task 56241951380865024
+[INFO] 2024/05/22 08:55:49 main.go:119: running task: 4, waiting task: 0
+[INFO] 2024/05/22 08:55:49 result.go:51: task 56241951380865026 components count: 1 save success
+[INFO] 2024/05/22 08:55:49 task.go:64: task 56241951380865026 progress: [Task Compelete]
+[INFO] 2024/05/22 08:55:49 task.go:86: task 56241951380865026 status: [Task Complete]
+[DEBUG] 2024/05/22 08:55:49 engine.go:89: task 56241951380865026:
+
+[xml-apis:xml-apis:1.4.01]<Java>[0]:(/opt/java_baji/tomcat/apache-tomcat-6.0.53/webapps/WebGoat/WEB-INF/lib/xml-apis-1.4.01.jar){Success}[]{}[1.4.01/2.0.2][2011-08-20=>2005-09-20]
+
+[INFO] 2024/05/22 08:55:49 sync.go:39: terminate task 56241951380865026
+[INFO] 2024/05/22 08:55:49 main.go:119: running task: 3, waiting task: 0
+[INFO] 2024/05/22 08:55:49 result.go:51: task 56241951380865025 components count: 1 save success
+[INFO] 2024/05/22 08:55:49 task.go:64: task 56241951380865025 progress: [Task Compelete]
+[INFO] 2024/05/22 08:55:49 task.go:86: task 56241951380865025 status: [Task Complete]
+[DEBUG] 2024/05/22 08:55:49 engine.go:89: task 56241951380865025:
+
+[org.apache.tomcat:servlet-api:6.0.53]<Java>[0]:(/opt/java_baji/tomcat/apache-tomcat-6.0.53/lib/servlet-api.jar){Success}[]{Apache-2.0,CDDL-1.0}[6.0.53/6.0.53][2017-04-02=>2017-04-02]
+
+[INFO] 2024/05/22 08:55:49 sync.go:39: terminate task 56241951380865025
+[INFO] 2024/05/22 08:55:49 main.go:119: running task: 2, waiting task: 0
+[DEBUG] 2024/05/22 08:55:49 status.go:26: get task 56241951365791744 status: [Task Analyzing]
+[DEBUG] 2024/05/22 08:55:49 status.go:26: get task 56241951380865024 status: [Task Complete]
+[DEBUG] 2024/05/22 08:55:49 status.go:26: get task 56241951380865025 status: [Task Complete]
+[DEBUG] 2024/05/22 08:55:49 status.go:26: get task 56241951380865026 status: [Task Complete]
+[DEBUG] 2024/05/22 08:55:49 status.go:26: get task 56241951380865027 status: [Task Analyzing]
+[DEBUG] 2024/05/22 08:55:49 result.go:27: get task 56241951380865024 result
+[INFO] 2024/05/22 08:55:49 result.go:61: task 56241951380865024 components count: 1 load success
+[INFO] 2024/05/22 08:55:49 result.go:18: task 56241951380865024 components count: 1
+[DEBUG] 2024/05/22 08:55:49 result.go:27: get task 56241951380865025 result
+[INFO] 2024/05/22 08:55:49 result.go:61: task 56241951380865025 components count: 1 load success
+[INFO] 2024/05/22 08:55:49 result.go:18: task 56241951380865025 components count: 1
+[DEBUG] 2024/05/22 08:55:49 result.go:27: get task 56241951380865026 result
+[INFO] 2024/05/22 08:55:49 result.go:61: task 56241951380865026 components count: 1 load success
+[INFO] 2024/05/22 08:55:49 result.go:18: task 56241951380865026 components count: 1
+[INFO] 2024/05/22 08:55:49 task.go:54: delete task 56241951380865024
+[INFO] 2024/05/22 08:55:49 task.go:54: delete task 56241951380865025
+[INFO] 2024/05/22 08:55:49 task.go:54: delete task 56241951380865026
+[INFO] 2024/05/22 08:55:49 result.go:51: task 56241951365791744 components count: 1 save success
+[INFO] 2024/05/22 08:55:49 task.go:64: task 56241951365791744 progress: [Task Compelete]
+[INFO] 2024/05/22 08:55:49 task.go:86: task 56241951365791744 status: [Task Complete]
+[DEBUG] 2024/05/22 08:55:49 engine.go:89: task 56241951365791744:
+
+[org.apache.tomcat:jsp-api:6.0.53]<Java>[0]:(/opt/java_baji/tomcat/apache-tomcat-6.0.53/lib/jsp-api.jar){Success}[]{Apache-2.0}[6.0.53/6.0.53][2017-04-02=>2017-04-02]
+
+[INFO] 2024/05/22 08:55:49 sync.go:39: terminate task 56241951365791744
+[INFO] 2024/05/22 08:55:49 main.go:119: running task: 1, waiting task: 0
+[INFO] 2024/05/22 08:55:49 result.go:51: task 56241951380865027 components count: 1 save success
+[INFO] 2024/05/22 08:55:49 task.go:64: task 56241951380865027 progress: [Task Compelete]
+[INFO] 2024/05/22 08:55:49 task.go:86: task 56241951380865027 status: [Task Complete]
+[DEBUG] 2024/05/22 08:55:49 engine.go:89: task 56241951380865027:
+
+[org.apache.tomcat:annotations-api:6.0.53]<Java>[0]:(/opt/java_baji/tomcat/apache-tomcat-6.0.53/lib/annotations-api.jar){Success}[]{Apache-2.0}[6.0.53/6.0.53][2017-04-02=>2017-04-02]
+
+[INFO] 2024/05/22 08:55:49 sync.go:39: terminate task 56241951380865027
+[INFO] 2024/05/22 08:55:49 main.go:119: running task: 0, waiting task: 0
+[DEBUG] 2024/05/22 08:56:01 status.go:26: get task 56241951365791744 status: [Task Complete]
+[DEBUG] 2024/05/22 08:56:01 status.go:26: get task 56241951380865027 status: [Task Complete]
+[DEBUG] 2024/05/22 08:56:01 result.go:27: get task 56241951365791744 result
+[INFO] 2024/05/22 08:56:01 result.go:61: task 56241951365791744 components count: 1 load success
+[INFO] 2024/05/22 08:56:01 result.go:18: task 56241951365791744 components count: 1
+[DEBUG] 2024/05/22 08:56:01 result.go:27: get task 56241951380865027 result
+[INFO] 2024/05/22 08:56:01 result.go:61: task 56241951380865027 components count: 1 load success
+[INFO] 2024/05/22 08:56:01 result.go:18: task 56241951380865027 components count: 1
+[INFO] 2024/05/22 08:56:01 task.go:54: delete task 56241951365791744
+[INFO] 2024/05/22 08:56:01 task.go:54: delete task 56241951380865027
+[INFO] 2024/05/22 09:44:54 task.go:32: [0/10000] waiting task: 56242048028770304:[File|Normol|Fast|-1|false](http://192.168.172.77:8080/iast/static/app_package/fdc6e273-83de-4674-9c95-7ab15a0152ca/vulns_xin.war)
+[INFO] 2024/05/22 09:44:54 task.go:86: task 56242048028770304 status: [Task Waiting]
+[INFO] 2024/05/22 09:44:54 task.go:64: task 56242048028770304 progress: [Task Queuing]
+[INFO] 2024/05/22 09:44:54 main.go:100: running task: 1, waiting task: 0
+[INFO] 2024/05/22 09:44:54 task.go:86: task 56242048028770304 status: [Task Analyzing]
+[INFO] 2024/05/22 09:44:54 task.go:64: task 56242048028770304 progress: [Data Downloading]
+[INFO] 2024/05/22 09:44:56 task.go:64: task 56242048028770304 progress: [Task Scanning]
+[DEBUG] 2024/05/22 09:44:58 status.go:26: get task 56242048028770304 status: [Task Analyzing]
+[INFO] 2024/05/22 09:45:01 task.go:64: task 56242048028770304 progress: [Task Scanning]
+[INFO] 2024/05/22 09:45:01 task.go:64: task 56242048028770304 progress: [Cleaning Data]
+[INFO] 2024/05/22 09:45:01 task.go:64: task 56242048028770304 progress: [Searching Vulns]
+[INFO] 2024/05/22 09:45:02 result.go:51: task 56242048028770304 components count: 66 save success
+[INFO] 2024/05/22 09:45:02 task.go:64: task 56242048028770304 progress: [Task Compelete]
+[INFO] 2024/05/22 09:45:02 task.go:86: task 56242048028770304 status: [Task Complete]
+[DEBUG] 2024/05/22 09:45:02 engine.go:89: task 56242048028770304:
+
+[vulns_xin:]<None>[0]:(vulns_xin.war){No Check}[]{}[/][=>]
+    [commons-beanutils:commons-beanutils:1.8.0]<Java>[0]:(WEB-INF/lib/commons-beanutils-1.8.0.jar/[commons-beanutils:commons-beanutils:1.8.0]){Success}[]{}[1.8.0/1.9.4][2008-08-28=>2019-07-28]
+    [commons-codec:commons-codec:1.9]<Java>[0]:(WEB-INF/lib/commons-codec-1.9.jar/[commons-codec:commons-codec:1.9]){Success}[]{Apache-2.0}[1.9/1.16.1][2013-12-21=>2024-02-04]
+    [commons-collections:commons-collections:3.2.1]<Java>[0]:(WEB-INF/lib/commons-collections-3.2.1.jar/[commons-collections:commons-collections:3.2.1]){Success}[]{}[3.2.1/3.2.2][2008-04-15=>2015-11-12]
+    [commons-lang:commons-lang:2.5]<Java>[0]:(WEB-INF/lib/commons-lang-2.5.jar/[commons-lang:commons-lang:2.5]){Success}[]{}[2.5/2.6][2010-02-25=>2011-01-16]
+    [commons-logging:commons-logging:1.2]<Java>[0]:(WEB-INF/lib/commons-logging-1.2.jar/[commons-logging:commons-logging:1.2]){Success}[]{Apache-2.0}[1.2/1.3.0][2014-07-05=>2023-11-26]
+    [org.zenframework.z8.dependencies.commons:dom4j-1.6.1:2.0]<Java>[0]:(WEB-INF/lib/dom4j-1.6.1.jar/[org.zenframework.z8.dependencies.commons:dom4j-1.6.1:2.0]){Success}[]{MIT}[2.0/2.0][2018-02-14=>2018-02-14]
+    [net.sf.ezmorph:ezmorph:1.0.6]<Java>[0]:(WEB-INF/lib/ezmorph-1.0.6.jar/[net.sf.ezmorph:ezmorph:1.0.6]){Success}[]{Apache-2.0}[1.0.6/1.0.6][2008-12-26=>2008-12-26]
+    [com.sun.xml.fastinfoset:FastInfoset:1.2.15]<Java>[0]:(WEB-INF/lib/FastInfoset-1.2.15.jar/[com.sun.xml.fastinfoset:FastInfoset:1.2.15]){Success}[]{Custom,Apache-2.0}[1.2.15/2.1.1][2018-08-29=>2023-10-20]
+    [org.apache.httpcomponents:httpcore:4.4]<Java>[0]:(WEB-INF/lib/httpcore-4.4.jar/[org.apache.httpcomponents:httpcore:4.4]){Success}[]{Apache-2.0}[4.4/4.4.16][2014-12-14=>2022-11-26]
+    [com.sun.istack:istack-commons-runtime:3.0.7]<Java>[0]:(WEB-INF/lib/istack-commons-runtime-3.0.7.jar/[com.sun.istack:istack-commons-runtime:3.0.7]){Success}[]{Custom}[3.0.7/4.2.0][2018-08-29=>2023-04-14]
+    [one.gfw:javax.activation-api:1.2.0]<Java>[0]:(WEB-INF/lib/javax.activation-api-1.2.0.jar/[one.gfw:javax.activation-api:1.2.0]){Success}[]{}[1.2.0/1.2.0][2023-03-17=>2023-03-17]
+    [one.gfw:jaxb-api:2.3.1.1]<Java>[0]:(WEB-INF/lib/jaxb-api-2.3.1.jar/[one.gfw:jaxb-api:2.3.1.1]){Success}[]{}[2.3.1.1/2.3.1.1][2023-03-17=>2023-03-17]
+    [com.hynnet:json-lib:2.4]<Java>[0]:(WEB-INF/lib/json-lib-2.4-jdk15.jar/[com.hynnet:json-lib:2.4]){Success}[]{Apache-2.0}[2.4/2.4][2015-10-10=>2015-10-10]
+    [org.zenframework.z8.dependencies.commons:log4j-1.2.17:2.0]<Java>[0]:(WEB-INF/lib/log4j-1.2.17.jar/[org.zenframework.z8.dependencies.commons:log4j-1.2.17:2.0]){Success}[]{MIT}[2.0/2.0][2018-02-14=>2018-02-14]
+    [mysql:mysql-connector-java:8.0.22]<Java>[0]:(WEB-INF/lib/mysql-connector-java-8.0.22.jar/[mysql:mysql-connector-java:8.0.22]){Success}[]{GPL-2.0-only}[8.0.22/8.0.33][2020-09-10=>2023-03-07]
+    [com.oracle.database.jdbc:ojdbc8:19.3.0.0]<Java>[0]:(WEB-INF/lib/ojdbc8-19.3.0.0.jar/[com.oracle.database.jdbc:ojdbc8:19.3.0.0]){Success}[]{Custom}[19.3.0.0/23.3.0.23.09][2020-02-21=>2023-09-27]
+    [com.squareup.okio:okio:1.12.0]<Java>[0]:(WEB-INF/lib/okio-1.12.0.jar/[com.squareup.okio:okio:1.12.0]){Success}[]{Apache-2.0}[1.12.0/3.9.0][2017-04-11=>2024-03-13]
+    [com.oracle.database.ha:ons:19.3.0.0]<Java>[0]:(WEB-INF/lib/ons-19.3.0.0.jar/[com.oracle.database.ha:ons:19.3.0.0]){Success}[]{Custom}[19.3.0.0/23.3.0.23.09][2020-02-21=>2023-09-27]
+    [com.oracle.database.security:oraclepki:19.3.0.0]<Java>[0]:(WEB-INF/lib/oraclepki-19.3.0.0.jar/[com.oracle.database.security:oraclepki:19.3.0.0]){Success}[]{Custom}[19.3.0.0/23.3.0.23.09][2020-02-21=>2023-09-27]
+    [com.oracle.database.security:osdt_cert:19.3.0.0]<Java>[0]:(WEB-INF/lib/osdt_cert-19.3.0.0.jar/[com.oracle.database.security:osdt_cert:19.3.0.0]){Success}[]{Custom}[19.3.0.0/21.13.0.0][2020-02-21=>2024-02-07]
+    [com.oracle.database.security:osdt_core:19.3.0.0]<Java>[0]:(WEB-INF/lib/osdt_core-19.3.0.0.jar/[com.oracle.database.security:osdt_core:19.3.0.0]){Success}[]{Custom}[19.3.0.0/21.13.0.0][2020-02-21=>2024-02-07]
+    [com.google.protobuf:protobuf-java:3.11.4]<Java>[0]:(WEB-INF/lib/protobuf-java-3.11.4.jar/[com.google.protobuf:protobuf-java:3.11.4]){Success}[]{BSD-3-Clause}[3.11.4/4.26.0][2020-02-14=>2024-03-13]
+    [com.oracle.ojdbc:simplefan:19.3.0.0]<Java>[0]:(WEB-INF/lib/simplefan-19.3.0.0.jar/[com.oracle.ojdbc:simplefan:19.3.0.0]){Success}[]{Custom}[19.3.0.0/19.3.0.0][2019-09-13=>2019-09-13]
+    [org.jvnet.staxex:stax-ex:1.8]<Java>[0]:(WEB-INF/lib/stax-ex-1.8.jar/[org.jvnet.staxex:stax-ex:1.8]){Success}[]{CDDL-1.0}[1.8/2.1.0][2018-04-24=>2022-02-17]
+    [org.codehaus.woodstox:stax2-api:3.1.4]<Java>[0]:(WEB-INF/lib/stax2-api-3.1.4.jar/[org.codehaus.woodstox:stax2-api:3.1.4]){Success}[]{BSD-3-Clause}[3.1.4/4.2.2][2014-02-27=>2023-10-10]
+    [org.glassfish.jaxb:txw2:2.3.1]<Java>[0]:(WEB-INF/lib/txw2-2.3.1.jar/[org.glassfish.jaxb:txw2:2.3.1]){Success}[]{Custom}[2.3.1/4.0.5][2018-09-12=>2024-03-06]
+    [com.oracle.database.jdbc:ucp:19.3.0.0]<Java>[0]:(WEB-INF/lib/ucp-19.3.0.0.jar/[com.oracle.database.jdbc:ucp:19.3.0.0]){Success}[]{Custom}[19.3.0.0/23.3.0.23.09][2020-02-21=>2023-09-27]
+    [com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]){No Check}[]{}[0.0.1-SNAPSHOT/0.0.1-SNAPSHOT][=>]
+        [org.apache.httpcomponents:httpclient:4.4]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.apache.httpcomponents:httpclient:4.4]){No Check}[]{Apache-2.0}[4.4/4.5.14][2015-01-27=>2022-11-30]
+        [log4j:log4j:1.2.17]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[log4j:log4j:1.2.17]){No Check}[]{Apache-2.0}[1.2.17/1.2.17-atlassian-13][2012-05-26=>2020-05-28]
+        [org.apache.taglibs:taglibs-standard-impl:1.2.5]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.apache.taglibs:taglibs-standard-impl:1.2.5]){No Check}[]{Apache-2.0}[1.2.5/1.2.5][2015-03-10=>2015-03-10]
+        [org.apache.taglibs:taglibs-standard-spec:1.2.5]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.apache.taglibs:taglibs-standard-spec:1.2.5]){No Check}[]{Apache-2.0}[1.2.5/1.2.5][2015-03-10=>2015-03-10]
+        [org.apache.commons:commons-collections4:4.0]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.apache.commons:commons-collections4:4.0]){No Check}[]{Apache-2.0}[4.0/4.4][2013-11-20=>2019-07-05]
+        [commons-fileupload:commons-fileupload:1.3.2]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[commons-fileupload:commons-fileupload:1.3.2]){No Check}[]{Apache-2.0}[1.3.2/1.5][2016-05-23=>2023-02-01]
+        [commons-httpclient:commons-httpclient:3.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[commons-httpclient:commons-httpclient:3.1]){No Check}[]{}[3.1/3.1-atlassian-2][2007-08-21=>2019-04-14]
+        [commons-io:commons-io:2.5]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[commons-io:commons-io:2.5]){No Check}[]{}[2.5/2.15.1][2016-04-22=>2023-11-24]
+        [mysql:mysql-connector-java:5.1.6]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[mysql:mysql-connector-java:5.1.6]){No Check}[]{GPL-2.0-only}[5.1.6/8.0.33][2015-05-08=>2023-03-07]
+        [com.oracle.ojdbc:ojdbc8:19.3.0.0]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[com.oracle.ojdbc:ojdbc8:19.3.0.0]){No Check}[]{Custom}[19.3.0.0/19.3.0.0][2019-09-13=>2019-09-13]
+        [com.squareup.okhttp3:okhttp:3.7.0]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[com.squareup.okhttp3:okhttp:3.7.0]){No Check}[]{Apache-2.0}[3.7.0/5.0.0-alpha.12][2017-04-15=>2023-12-17]
+        [com.squareup.okhttp:okhttp:2.7.5]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[com.squareup.okhttp:okhttp:2.7.5]){No Check}[]{Apache-2.0}[2.7.5/2.7.5][2016-02-26=>2016-02-26]
+        [net.sf.json-lib:json-lib:2.4]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[net.sf.json-lib:json-lib:2.4]){No Check}[]{Apache-2.0}[2.4/2.4][2010-12-14=>2010-12-14]
+        [jstl:jstl:1.2]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[jstl:jstl:1.2]){No Check}[]{}[1.2/1.2][2006-07-21=>2006-07-21]
+        [dom4j:dom4j:1.6.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[dom4j:dom4j:1.6.1]){No Check}[]{}[1.6.1/1.6.1-atlassian-3][2005-09-20=>2021-04-26]
+        [org.jdom:jdom:1.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.jdom:jdom:1.1]){No Check}[]{Custom}[1.1/2.0.2][2007-11-14=>2012-06-09]
+        [xerces:xercesImpl:2.9.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[xerces:xercesImpl:2.9.1]){No Check}[]{Apache-2.0}[2.9.1/2.12.2][2008-10-01=>2022-01-27]
+        [xml-apis:xml-apis:1.4.01]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[xml-apis:xml-apis:1.4.01]){No Check}[]{}[1.4.01/2.0.2][2011-08-20=>2005-09-20]
+        [com.fasterxml.woodstox:woodstox-core:5.0.3]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[com.fasterxml.woodstox:woodstox-core:5.0.3]){No Check}[]{Apache-2.0}[5.0.3/6.6.1][2016-08-23=>2024-02-26]
+        [org.hsqldb:hsqldb:2.3.2]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.hsqldb:hsqldb:2.3.2]){No Check}[]{BSD-3-Clause}[2.3.2/2.7.2][2014-02-14=>2023-05-31]
+        [org.mybatis:mybatis:3.2.8]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.mybatis:mybatis:3.2.8]){No Check}[]{Apache-2.0}[3.2.8/3.5.15][2014-10-10=>2023-12-14]
+        [org.hibernate:hibernate-core:5.4.4.Final]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.hibernate:hibernate-core:5.4.4.Final]){No Check}[]{LGPL-2.1-or-later}[5.4.4.Final/6.4.4.Final][2019-07-30=>2024-02-08]
+        [org.jboss.logging:jboss-logging:3.3.2.Final]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.jboss.logging:jboss-logging:3.3.2.Final]){No Check}[]{Apache-2.0}[3.3.2.Final/3.5.3.Final][2018-02-14=>2023-07-06]
+        [javax.persistence:javax.persistence-api:2.2]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[javax.persistence:javax.persistence-api:2.2]){No Check}[]{Custom,EPL-1.0}[2.2/2.2][2017-08-21=>2017-08-21]
+        [org.javassist:javassist:3.24.0-GA]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.javassist:javassist:3.24.0-GA]){No Check}[]{LGPL-2.1,MPL-1.1,Apache-2.0}[3.24.0-GA/3.30.2-GA][2018-11-01=>2023-12-24]
+        [net.bytebuddy:byte-buddy:1.9.11]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[net.bytebuddy:byte-buddy:1.9.11]){No Check}[]{Apache-2.0}[1.9.11/1.14.12][2019-03-21=>2024-02-16]
+        [antlr:antlr:2.7.7]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[antlr:antlr:2.7.7]){No Check}[]{}[2.7.7/3.0ea8][2007-01-13=>2007-01-13]
+        [org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.1.1.Final]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.1.1.Final]){No Check}[]{CDDL-1.0}[1.1.1.Final/2.0.0.CR1][2018-01-19=>2019-08-28]
+        [org.jboss:jandex:2.0.5.Final]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.jboss:jandex:2.0.5.Final]){No Check}[]{}[2.0.5.Final/3.1.7][2018-03-07=>2024-03-14]
+        [com.fasterxml:classmate:1.3.4]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[com.fasterxml:classmate:1.3.4]){No Check}[]{Apache-2.0}[1.3.4/1.7.0][2017-09-09=>2024-01-03]
+        [javax.activation:javax.activation-api:1.2.0]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[javax.activation:javax.activation-api:1.2.0]){No Check}[]{Custom}[1.2.0/1.2.0][2017-09-06=>2017-09-06]
+        [org.dom4j:dom4j:2.1.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.dom4j:dom4j:2.1.1]){No Check}[]{BSD-3-Clause}[2.1.1/2.1.4][2018-07-01=>2023-01-22]
+        [org.hibernate.common:hibernate-commons-annotations:5.1.0.Final]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.hibernate.common:hibernate-commons-annotations:5.1.0.Final]){No Check}[]{LGPL-2.1-or-later}[5.1.0.Final/6.0.6.Final][2018-11-08=>2023-01-26]
+        [javax.xml.bind:jaxb-api:2.3.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[javax.xml.bind:jaxb-api:2.3.1]){No Check}[]{Custom,CDDL-1.1}[2.3.1/2.4.0-b180830.0359][2018-09-12=>2018-08-30]
+        [org.glassfish.jaxb:jaxb-runtime:2.3.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.glassfish.jaxb:jaxb-runtime:2.3.1]){No Check}[]{Custom}[2.3.1/4.0.5][2018-09-12=>2024-03-06]
+        [org.mongodb:mongo-java-driver:3.6.4]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.mongodb:mongo-java-driver:3.6.4]){No Check}[]{Apache-2.0}[3.6.4/3.12.14][2018-05-29=>2023-06-07]
+        [org.w3c:dom:2.3.0-jaxb-1.0.6]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.w3c:dom:2.3.0-jaxb-1.0.6]){No Check}[]{}[2.3.0-jaxb-1.0.6/2.3.0-jaxb-1.0.6][2010-05-20=>2010-05-20]
+
+[INFO] 2024/05/22 09:45:02 sync.go:39: terminate task 56242048028770304
+[INFO] 2024/05/22 09:45:02 main.go:119: running task: 0, waiting task: 0
+[DEBUG] 2024/05/22 09:45:08 status.go:26: get task 56242048028770304 status: [Task Complete]
+[DEBUG] 2024/05/22 09:45:08 result.go:27: get task 56242048028770304 result
+[INFO] 2024/05/22 09:45:08 result.go:61: task 56242048028770304 components count: 66 load success
+[INFO] 2024/05/22 09:45:08 result.go:18: task 56242048028770304 components count: 66
+[INFO] 2024/05/22 09:45:08 task.go:54: delete task 56242048028770304
+[INFO] 2024/05/22 09:48:23 task.go:32: [0/10000] waiting task: 56242054857588736:[File|Normol|Fast|-1|false](http://192.168.172.77:8080/iast/static/app_package/fdc6e273-83de-4674-9c95-7ab15a0152ca/vulns_xin.war)
+[INFO] 2024/05/22 09:48:23 task.go:86: task 56242054857588736 status: [Task Waiting]
+[INFO] 2024/05/22 09:48:23 task.go:64: task 56242054857588736 progress: [Task Queuing]
+[INFO] 2024/05/22 09:48:23 main.go:100: running task: 1, waiting task: 0
+[INFO] 2024/05/22 09:48:23 task.go:86: task 56242054857588736 status: [Task Analyzing]
+[INFO] 2024/05/22 09:48:23 task.go:64: task 56242054857588736 progress: [Data Downloading]
+[INFO] 2024/05/22 09:48:24 task.go:64: task 56242054857588736 progress: [Task Scanning]
+[INFO] 2024/05/22 09:48:25 task.go:64: task 56242054857588736 progress: [Task Scanning]
+[INFO] 2024/05/22 09:48:25 task.go:64: task 56242054857588736 progress: [Cleaning Data]
+[INFO] 2024/05/22 09:48:25 task.go:64: task 56242054857588736 progress: [Searching Vulns]
+[INFO] 2024/05/22 09:48:25 result.go:51: task 56242054857588736 components count: 66 save success
+[INFO] 2024/05/22 09:48:25 task.go:64: task 56242054857588736 progress: [Task Compelete]
+[INFO] 2024/05/22 09:48:25 task.go:86: task 56242054857588736 status: [Task Complete]
+[DEBUG] 2024/05/22 09:48:25 engine.go:89: task 56242054857588736:
+
+[vulns_xin:]<None>[0]:(vulns_xin.war){No Check}[]{}[/][=>]
+    [commons-beanutils:commons-beanutils:1.8.0]<Java>[0]:(WEB-INF/lib/commons-beanutils-1.8.0.jar/[commons-beanutils:commons-beanutils:1.8.0]){Success}[]{}[1.8.0/1.9.4][2008-08-28=>2019-07-28]
+    [commons-codec:commons-codec:1.9]<Java>[0]:(WEB-INF/lib/commons-codec-1.9.jar/[commons-codec:commons-codec:1.9]){Success}[]{Apache-2.0}[1.9/1.16.1][2013-12-21=>2024-02-04]
+    [commons-collections:commons-collections:3.2.1]<Java>[0]:(WEB-INF/lib/commons-collections-3.2.1.jar/[commons-collections:commons-collections:3.2.1]){Success}[]{}[3.2.1/3.2.2][2008-04-15=>2015-11-12]
+    [commons-lang:commons-lang:2.5]<Java>[0]:(WEB-INF/lib/commons-lang-2.5.jar/[commons-lang:commons-lang:2.5]){Success}[]{}[2.5/2.6][2010-02-25=>2011-01-16]
+    [commons-logging:commons-logging:1.2]<Java>[0]:(WEB-INF/lib/commons-logging-1.2.jar/[commons-logging:commons-logging:1.2]){Success}[]{Apache-2.0}[1.2/1.3.0][2014-07-05=>2023-11-26]
+    [org.zenframework.z8.dependencies.commons:dom4j-1.6.1:2.0]<Java>[0]:(WEB-INF/lib/dom4j-1.6.1.jar/[org.zenframework.z8.dependencies.commons:dom4j-1.6.1:2.0]){Success}[]{MIT}[2.0/2.0][2018-02-14=>2018-02-14]
+    [net.sf.ezmorph:ezmorph:1.0.6]<Java>[0]:(WEB-INF/lib/ezmorph-1.0.6.jar/[net.sf.ezmorph:ezmorph:1.0.6]){Success}[]{Apache-2.0}[1.0.6/1.0.6][2008-12-26=>2008-12-26]
+    [com.sun.xml.fastinfoset:FastInfoset:1.2.15]<Java>[0]:(WEB-INF/lib/FastInfoset-1.2.15.jar/[com.sun.xml.fastinfoset:FastInfoset:1.2.15]){Success}[]{Custom,Apache-2.0}[1.2.15/2.1.1][2018-08-29=>2023-10-20]
+    [org.apache.httpcomponents:httpcore:4.4]<Java>[0]:(WEB-INF/lib/httpcore-4.4.jar/[org.apache.httpcomponents:httpcore:4.4]){Success}[]{Apache-2.0}[4.4/4.4.16][2014-12-14=>2022-11-26]
+    [com.sun.istack:istack-commons-runtime:3.0.7]<Java>[0]:(WEB-INF/lib/istack-commons-runtime-3.0.7.jar/[com.sun.istack:istack-commons-runtime:3.0.7]){Success}[]{Custom}[3.0.7/4.2.0][2018-08-29=>2023-04-14]
+    [one.gfw:javax.activation-api:1.2.0]<Java>[0]:(WEB-INF/lib/javax.activation-api-1.2.0.jar/[one.gfw:javax.activation-api:1.2.0]){Success}[]{}[1.2.0/1.2.0][2023-03-17=>2023-03-17]
+    [one.gfw:jaxb-api:2.3.1.1]<Java>[0]:(WEB-INF/lib/jaxb-api-2.3.1.jar/[one.gfw:jaxb-api:2.3.1.1]){Success}[]{}[2.3.1.1/2.3.1.1][2023-03-17=>2023-03-17]
+    [com.hynnet:json-lib:2.4]<Java>[0]:(WEB-INF/lib/json-lib-2.4-jdk15.jar/[com.hynnet:json-lib:2.4]){Success}[]{Apache-2.0}[2.4/2.4][2015-10-10=>2015-10-10]
+    [org.zenframework.z8.dependencies.commons:log4j-1.2.17:2.0]<Java>[0]:(WEB-INF/lib/log4j-1.2.17.jar/[org.zenframework.z8.dependencies.commons:log4j-1.2.17:2.0]){Success}[]{MIT}[2.0/2.0][2018-02-14=>2018-02-14]
+    [mysql:mysql-connector-java:8.0.22]<Java>[0]:(WEB-INF/lib/mysql-connector-java-8.0.22.jar/[mysql:mysql-connector-java:8.0.22]){Success}[]{GPL-2.0-only}[8.0.22/8.0.33][2020-09-10=>2023-03-07]
+    [com.oracle.database.jdbc:ojdbc8:19.3.0.0]<Java>[0]:(WEB-INF/lib/ojdbc8-19.3.0.0.jar/[com.oracle.database.jdbc:ojdbc8:19.3.0.0]){Success}[]{Custom}[19.3.0.0/23.3.0.23.09][2020-02-21=>2023-09-27]
+    [com.squareup.okio:okio:1.12.0]<Java>[0]:(WEB-INF/lib/okio-1.12.0.jar/[com.squareup.okio:okio:1.12.0]){Success}[]{Apache-2.0}[1.12.0/3.9.0][2017-04-11=>2024-03-13]
+    [com.oracle.database.ha:ons:19.3.0.0]<Java>[0]:(WEB-INF/lib/ons-19.3.0.0.jar/[com.oracle.database.ha:ons:19.3.0.0]){Success}[]{Custom}[19.3.0.0/23.3.0.23.09][2020-02-21=>2023-09-27]
+    [com.oracle.database.security:oraclepki:19.3.0.0]<Java>[0]:(WEB-INF/lib/oraclepki-19.3.0.0.jar/[com.oracle.database.security:oraclepki:19.3.0.0]){Success}[]{Custom}[19.3.0.0/23.3.0.23.09][2020-02-21=>2023-09-27]
+    [com.oracle.database.security:osdt_cert:19.3.0.0]<Java>[0]:(WEB-INF/lib/osdt_cert-19.3.0.0.jar/[com.oracle.database.security:osdt_cert:19.3.0.0]){Success}[]{Custom}[19.3.0.0/21.13.0.0][2020-02-21=>2024-02-07]
+    [com.oracle.database.security:osdt_core:19.3.0.0]<Java>[0]:(WEB-INF/lib/osdt_core-19.3.0.0.jar/[com.oracle.database.security:osdt_core:19.3.0.0]){Success}[]{Custom}[19.3.0.0/21.13.0.0][2020-02-21=>2024-02-07]
+    [com.google.protobuf:protobuf-java:3.11.4]<Java>[0]:(WEB-INF/lib/protobuf-java-3.11.4.jar/[com.google.protobuf:protobuf-java:3.11.4]){Success}[]{BSD-3-Clause}[3.11.4/4.26.0][2020-02-14=>2024-03-13]
+    [com.oracle.ojdbc:simplefan:19.3.0.0]<Java>[0]:(WEB-INF/lib/simplefan-19.3.0.0.jar/[com.oracle.ojdbc:simplefan:19.3.0.0]){Success}[]{Custom}[19.3.0.0/19.3.0.0][2019-09-13=>2019-09-13]
+    [org.jvnet.staxex:stax-ex:1.8]<Java>[0]:(WEB-INF/lib/stax-ex-1.8.jar/[org.jvnet.staxex:stax-ex:1.8]){Success}[]{CDDL-1.0}[1.8/2.1.0][2018-04-24=>2022-02-17]
+    [org.codehaus.woodstox:stax2-api:3.1.4]<Java>[0]:(WEB-INF/lib/stax2-api-3.1.4.jar/[org.codehaus.woodstox:stax2-api:3.1.4]){Success}[]{BSD-3-Clause}[3.1.4/4.2.2][2014-02-27=>2023-10-10]
+    [org.glassfish.jaxb:txw2:2.3.1]<Java>[0]:(WEB-INF/lib/txw2-2.3.1.jar/[org.glassfish.jaxb:txw2:2.3.1]){Success}[]{Custom}[2.3.1/4.0.5][2018-09-12=>2024-03-06]
+    [com.oracle.database.jdbc:ucp:19.3.0.0]<Java>[0]:(WEB-INF/lib/ucp-19.3.0.0.jar/[com.oracle.database.jdbc:ucp:19.3.0.0]){Success}[]{Custom}[19.3.0.0/23.3.0.23.09][2020-02-21=>2023-09-27]
+    [com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]){No Check}[]{}[0.0.1-SNAPSHOT/0.0.1-SNAPSHOT][=>]
+        [org.apache.httpcomponents:httpclient:4.4]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.apache.httpcomponents:httpclient:4.4]){No Check}[]{Apache-2.0}[4.4/4.5.14][2015-01-27=>2022-11-30]
+        [log4j:log4j:1.2.17]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[log4j:log4j:1.2.17]){No Check}[]{Apache-2.0}[1.2.17/1.2.17-atlassian-13][2012-05-26=>2020-05-28]
+        [org.apache.taglibs:taglibs-standard-impl:1.2.5]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.apache.taglibs:taglibs-standard-impl:1.2.5]){No Check}[]{Apache-2.0}[1.2.5/1.2.5][2015-03-10=>2015-03-10]
+        [org.apache.taglibs:taglibs-standard-spec:1.2.5]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.apache.taglibs:taglibs-standard-spec:1.2.5]){No Check}[]{Apache-2.0}[1.2.5/1.2.5][2015-03-10=>2015-03-10]
+        [org.apache.commons:commons-collections4:4.0]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.apache.commons:commons-collections4:4.0]){No Check}[]{Apache-2.0}[4.0/4.4][2013-11-20=>2019-07-05]
+        [commons-fileupload:commons-fileupload:1.3.2]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[commons-fileupload:commons-fileupload:1.3.2]){No Check}[]{Apache-2.0}[1.3.2/1.5][2016-05-23=>2023-02-01]
+        [commons-httpclient:commons-httpclient:3.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[commons-httpclient:commons-httpclient:3.1]){No Check}[]{}[3.1/3.1-atlassian-2][2007-08-21=>2019-04-14]
+        [commons-io:commons-io:2.5]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[commons-io:commons-io:2.5]){No Check}[]{}[2.5/2.15.1][2016-04-22=>2023-11-24]
+        [mysql:mysql-connector-java:5.1.6]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[mysql:mysql-connector-java:5.1.6]){No Check}[]{GPL-2.0-only}[5.1.6/8.0.33][2015-05-08=>2023-03-07]
+        [com.oracle.ojdbc:ojdbc8:19.3.0.0]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[com.oracle.ojdbc:ojdbc8:19.3.0.0]){No Check}[]{Custom}[19.3.0.0/19.3.0.0][2019-09-13=>2019-09-13]
+        [com.squareup.okhttp3:okhttp:3.7.0]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[com.squareup.okhttp3:okhttp:3.7.0]){No Check}[]{Apache-2.0}[3.7.0/5.0.0-alpha.12][2017-04-15=>2023-12-17]
+        [com.squareup.okhttp:okhttp:2.7.5]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[com.squareup.okhttp:okhttp:2.7.5]){No Check}[]{Apache-2.0}[2.7.5/2.7.5][2016-02-26=>2016-02-26]
+        [net.sf.json-lib:json-lib:2.4]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[net.sf.json-lib:json-lib:2.4]){No Check}[]{Apache-2.0}[2.4/2.4][2010-12-14=>2010-12-14]
+        [jstl:jstl:1.2]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[jstl:jstl:1.2]){No Check}[]{}[1.2/1.2][2006-07-21=>2006-07-21]
+        [dom4j:dom4j:1.6.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[dom4j:dom4j:1.6.1]){No Check}[]{}[1.6.1/1.6.1-atlassian-3][2005-09-20=>2021-04-26]
+        [org.jdom:jdom:1.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.jdom:jdom:1.1]){No Check}[]{Custom}[1.1/2.0.2][2007-11-14=>2012-06-09]
+        [xerces:xercesImpl:2.9.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[xerces:xercesImpl:2.9.1]){No Check}[]{Apache-2.0}[2.9.1/2.12.2][2008-10-01=>2022-01-27]
+        [xml-apis:xml-apis:1.4.01]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[xml-apis:xml-apis:1.4.01]){No Check}[]{}[1.4.01/2.0.2][2011-08-20=>2005-09-20]
+        [com.fasterxml.woodstox:woodstox-core:5.0.3]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[com.fasterxml.woodstox:woodstox-core:5.0.3]){No Check}[]{Apache-2.0}[5.0.3/6.6.1][2016-08-23=>2024-02-26]
+        [org.hsqldb:hsqldb:2.3.2]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.hsqldb:hsqldb:2.3.2]){No Check}[]{BSD-3-Clause}[2.3.2/2.7.2][2014-02-14=>2023-05-31]
+        [org.mybatis:mybatis:3.2.8]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.mybatis:mybatis:3.2.8]){No Check}[]{Apache-2.0}[3.2.8/3.5.15][2014-10-10=>2023-12-14]
+        [org.hibernate:hibernate-core:5.4.4.Final]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.hibernate:hibernate-core:5.4.4.Final]){No Check}[]{LGPL-2.1-or-later}[5.4.4.Final/6.4.4.Final][2019-07-30=>2024-02-08]
+        [org.jboss.logging:jboss-logging:3.3.2.Final]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.jboss.logging:jboss-logging:3.3.2.Final]){No Check}[]{Apache-2.0}[3.3.2.Final/3.5.3.Final][2018-02-14=>2023-07-06]
+        [javax.persistence:javax.persistence-api:2.2]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[javax.persistence:javax.persistence-api:2.2]){No Check}[]{Custom,EPL-1.0}[2.2/2.2][2017-08-21=>2017-08-21]
+        [org.javassist:javassist:3.24.0-GA]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.javassist:javassist:3.24.0-GA]){No Check}[]{LGPL-2.1,MPL-1.1,Apache-2.0}[3.24.0-GA/3.30.2-GA][2018-11-01=>2023-12-24]
+        [net.bytebuddy:byte-buddy:1.9.11]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[net.bytebuddy:byte-buddy:1.9.11]){No Check}[]{Apache-2.0}[1.9.11/1.14.12][2019-03-21=>2024-02-16]
+        [antlr:antlr:2.7.7]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[antlr:antlr:2.7.7]){No Check}[]{}[2.7.7/3.0ea8][2007-01-13=>2007-01-13]
+        [org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.1.1.Final]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.1.1.Final]){No Check}[]{CDDL-1.0}[1.1.1.Final/2.0.0.CR1][2018-01-19=>2019-08-28]
+        [org.jboss:jandex:2.0.5.Final]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.jboss:jandex:2.0.5.Final]){No Check}[]{}[2.0.5.Final/3.1.7][2018-03-07=>2024-03-14]
+        [com.fasterxml:classmate:1.3.4]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[com.fasterxml:classmate:1.3.4]){No Check}[]{Apache-2.0}[1.3.4/1.7.0][2017-09-09=>2024-01-03]
+        [javax.activation:javax.activation-api:1.2.0]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[javax.activation:javax.activation-api:1.2.0]){No Check}[]{Custom}[1.2.0/1.2.0][2017-09-06=>2017-09-06]
+        [org.dom4j:dom4j:2.1.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.dom4j:dom4j:2.1.1]){No Check}[]{BSD-3-Clause}[2.1.1/2.1.4][2018-07-01=>2023-01-22]
+        [org.hibernate.common:hibernate-commons-annotations:5.1.0.Final]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.hibernate.common:hibernate-commons-annotations:5.1.0.Final]){No Check}[]{LGPL-2.1-or-later}[5.1.0.Final/6.0.6.Final][2018-11-08=>2023-01-26]
+        [javax.xml.bind:jaxb-api:2.3.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[javax.xml.bind:jaxb-api:2.3.1]){No Check}[]{Custom,CDDL-1.1}[2.3.1/2.4.0-b180830.0359][2018-09-12=>2018-08-30]
+        [org.glassfish.jaxb:jaxb-runtime:2.3.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.glassfish.jaxb:jaxb-runtime:2.3.1]){No Check}[]{Custom}[2.3.1/4.0.5][2018-09-12=>2024-03-06]
+        [org.mongodb:mongo-java-driver:3.6.4]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.mongodb:mongo-java-driver:3.6.4]){No Check}[]{Apache-2.0}[3.6.4/3.12.14][2018-05-29=>2023-06-07]
+        [org.w3c:dom:2.3.0-jaxb-1.0.6]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.w3c:dom:2.3.0-jaxb-1.0.6]){No Check}[]{}[2.3.0-jaxb-1.0.6/2.3.0-jaxb-1.0.6][2010-05-20=>2010-05-20]
+
+[INFO] 2024/05/22 09:48:25 sync.go:39: terminate task 56242054857588736
+[INFO] 2024/05/22 09:48:25 main.go:119: running task: 0, waiting task: 0
+[DEBUG] 2024/05/22 09:48:32 status.go:26: get task 56242054857588736 status: [Task Complete]
+[DEBUG] 2024/05/22 09:48:32 result.go:27: get task 56242054857588736 result
+[INFO] 2024/05/22 09:48:32 result.go:61: task 56242054857588736 components count: 66 load success
+[INFO] 2024/05/22 09:48:32 result.go:18: task 56242054857588736 components count: 66
+[INFO] 2024/05/22 09:48:32 task.go:54: delete task 56242054857588736
+[INFO] 2024/05/22 09:49:42 task.go:32: [0/10000] waiting task: 56242057447243776:[File|Normol|Fast|-1|false](http://192.168.172.77:8080/iast/static/app_package/fdc6e273-83de-4674-9c95-7ab15a0152ca/vulns_xin.war)
+[INFO] 2024/05/22 09:49:42 task.go:86: task 56242057447243776 status: [Task Waiting]
+[INFO] 2024/05/22 09:49:42 main.go:100: running task: 1, waiting task: 0
+[INFO] 2024/05/22 09:49:42 task.go:64: task 56242057447243776 progress: [Task Queuing]
+[INFO] 2024/05/22 09:49:42 task.go:86: task 56242057447243776 status: [Task Analyzing]
+[INFO] 2024/05/22 09:49:42 task.go:64: task 56242057447243776 progress: [Data Downloading]
+[INFO] 2024/05/22 09:49:43 task.go:64: task 56242057447243776 progress: [Task Scanning]
+[INFO] 2024/05/22 09:49:44 task.go:64: task 56242057447243776 progress: [Task Scanning]
+[INFO] 2024/05/22 09:49:44 task.go:64: task 56242057447243776 progress: [Cleaning Data]
+[INFO] 2024/05/22 09:49:44 task.go:64: task 56242057447243776 progress: [Searching Vulns]
+[INFO] 2024/05/22 09:49:45 result.go:51: task 56242057447243776 components count: 66 save success
+[INFO] 2024/05/22 09:49:45 task.go:64: task 56242057447243776 progress: [Task Compelete]
+[INFO] 2024/05/22 09:49:45 task.go:86: task 56242057447243776 status: [Task Complete]
+[DEBUG] 2024/05/22 09:49:45 engine.go:89: task 56242057447243776:
+
+[vulns_xin:]<None>[0]:(vulns_xin.war){No Check}[]{}[/][=>]
+    [commons-beanutils:commons-beanutils:1.8.0]<Java>[0]:(WEB-INF/lib/commons-beanutils-1.8.0.jar/[commons-beanutils:commons-beanutils:1.8.0]){Success}[]{}[1.8.0/1.9.4][2008-08-28=>2019-07-28]
+    [commons-codec:commons-codec:1.9]<Java>[0]:(WEB-INF/lib/commons-codec-1.9.jar/[commons-codec:commons-codec:1.9]){Success}[]{Apache-2.0}[1.9/1.16.1][2013-12-21=>2024-02-04]
+    [commons-collections:commons-collections:3.2.1]<Java>[0]:(WEB-INF/lib/commons-collections-3.2.1.jar/[commons-collections:commons-collections:3.2.1]){Success}[]{}[3.2.1/3.2.2][2008-04-15=>2015-11-12]
+    [commons-lang:commons-lang:2.5]<Java>[0]:(WEB-INF/lib/commons-lang-2.5.jar/[commons-lang:commons-lang:2.5]){Success}[]{}[2.5/2.6][2010-02-25=>2011-01-16]
+    [commons-logging:commons-logging:1.2]<Java>[0]:(WEB-INF/lib/commons-logging-1.2.jar/[commons-logging:commons-logging:1.2]){Success}[]{Apache-2.0}[1.2/1.3.0][2014-07-05=>2023-11-26]
+    [org.zenframework.z8.dependencies.commons:dom4j-1.6.1:2.0]<Java>[0]:(WEB-INF/lib/dom4j-1.6.1.jar/[org.zenframework.z8.dependencies.commons:dom4j-1.6.1:2.0]){Success}[]{MIT}[2.0/2.0][2018-02-14=>2018-02-14]
+    [net.sf.ezmorph:ezmorph:1.0.6]<Java>[0]:(WEB-INF/lib/ezmorph-1.0.6.jar/[net.sf.ezmorph:ezmorph:1.0.6]){Success}[]{Apache-2.0}[1.0.6/1.0.6][2008-12-26=>2008-12-26]
+    [com.sun.xml.fastinfoset:FastInfoset:1.2.15]<Java>[0]:(WEB-INF/lib/FastInfoset-1.2.15.jar/[com.sun.xml.fastinfoset:FastInfoset:1.2.15]){Success}[]{Custom,Apache-2.0}[1.2.15/2.1.1][2018-08-29=>2023-10-20]
+    [org.apache.httpcomponents:httpcore:4.4]<Java>[0]:(WEB-INF/lib/httpcore-4.4.jar/[org.apache.httpcomponents:httpcore:4.4]){Success}[]{Apache-2.0}[4.4/4.4.16][2014-12-14=>2022-11-26]
+    [com.sun.istack:istack-commons-runtime:3.0.7]<Java>[0]:(WEB-INF/lib/istack-commons-runtime-3.0.7.jar/[com.sun.istack:istack-commons-runtime:3.0.7]){Success}[]{Custom}[3.0.7/4.2.0][2018-08-29=>2023-04-14]
+    [one.gfw:javax.activation-api:1.2.0]<Java>[0]:(WEB-INF/lib/javax.activation-api-1.2.0.jar/[one.gfw:javax.activation-api:1.2.0]){Success}[]{}[1.2.0/1.2.0][2023-03-17=>2023-03-17]
+    [one.gfw:jaxb-api:2.3.1.1]<Java>[0]:(WEB-INF/lib/jaxb-api-2.3.1.jar/[one.gfw:jaxb-api:2.3.1.1]){Success}[]{}[2.3.1.1/2.3.1.1][2023-03-17=>2023-03-17]
+    [com.hynnet:json-lib:2.4]<Java>[0]:(WEB-INF/lib/json-lib-2.4-jdk15.jar/[com.hynnet:json-lib:2.4]){Success}[]{Apache-2.0}[2.4/2.4][2015-10-10=>2015-10-10]
+    [org.zenframework.z8.dependencies.commons:log4j-1.2.17:2.0]<Java>[0]:(WEB-INF/lib/log4j-1.2.17.jar/[org.zenframework.z8.dependencies.commons:log4j-1.2.17:2.0]){Success}[]{MIT}[2.0/2.0][2018-02-14=>2018-02-14]
+    [mysql:mysql-connector-java:8.0.22]<Java>[0]:(WEB-INF/lib/mysql-connector-java-8.0.22.jar/[mysql:mysql-connector-java:8.0.22]){Success}[]{GPL-2.0-only}[8.0.22/8.0.33][2020-09-10=>2023-03-07]
+    [com.oracle.database.jdbc:ojdbc8:19.3.0.0]<Java>[0]:(WEB-INF/lib/ojdbc8-19.3.0.0.jar/[com.oracle.database.jdbc:ojdbc8:19.3.0.0]){Success}[]{Custom}[19.3.0.0/23.3.0.23.09][2020-02-21=>2023-09-27]
+    [com.squareup.okio:okio:1.12.0]<Java>[0]:(WEB-INF/lib/okio-1.12.0.jar/[com.squareup.okio:okio:1.12.0]){Success}[]{Apache-2.0}[1.12.0/3.9.0][2017-04-11=>2024-03-13]
+    [com.oracle.database.ha:ons:19.3.0.0]<Java>[0]:(WEB-INF/lib/ons-19.3.0.0.jar/[com.oracle.database.ha:ons:19.3.0.0]){Success}[]{Custom}[19.3.0.0/23.3.0.23.09][2020-02-21=>2023-09-27]
+    [com.oracle.database.security:oraclepki:19.3.0.0]<Java>[0]:(WEB-INF/lib/oraclepki-19.3.0.0.jar/[com.oracle.database.security:oraclepki:19.3.0.0]){Success}[]{Custom}[19.3.0.0/23.3.0.23.09][2020-02-21=>2023-09-27]
+    [com.oracle.database.security:osdt_cert:19.3.0.0]<Java>[0]:(WEB-INF/lib/osdt_cert-19.3.0.0.jar/[com.oracle.database.security:osdt_cert:19.3.0.0]){Success}[]{Custom}[19.3.0.0/21.13.0.0][2020-02-21=>2024-02-07]
+    [com.oracle.database.security:osdt_core:19.3.0.0]<Java>[0]:(WEB-INF/lib/osdt_core-19.3.0.0.jar/[com.oracle.database.security:osdt_core:19.3.0.0]){Success}[]{Custom}[19.3.0.0/21.13.0.0][2020-02-21=>2024-02-07]
+    [com.google.protobuf:protobuf-java:3.11.4]<Java>[0]:(WEB-INF/lib/protobuf-java-3.11.4.jar/[com.google.protobuf:protobuf-java:3.11.4]){Success}[]{BSD-3-Clause}[3.11.4/4.26.0][2020-02-14=>2024-03-13]
+    [com.oracle.ojdbc:simplefan:19.3.0.0]<Java>[0]:(WEB-INF/lib/simplefan-19.3.0.0.jar/[com.oracle.ojdbc:simplefan:19.3.0.0]){Success}[]{Custom}[19.3.0.0/19.3.0.0][2019-09-13=>2019-09-13]
+    [org.jvnet.staxex:stax-ex:1.8]<Java>[0]:(WEB-INF/lib/stax-ex-1.8.jar/[org.jvnet.staxex:stax-ex:1.8]){Success}[]{CDDL-1.0}[1.8/2.1.0][2018-04-24=>2022-02-17]
+    [org.codehaus.woodstox:stax2-api:3.1.4]<Java>[0]:(WEB-INF/lib/stax2-api-3.1.4.jar/[org.codehaus.woodstox:stax2-api:3.1.4]){Success}[]{BSD-3-Clause}[3.1.4/4.2.2][2014-02-27=>2023-10-10]
+    [org.glassfish.jaxb:txw2:2.3.1]<Java>[0]:(WEB-INF/lib/txw2-2.3.1.jar/[org.glassfish.jaxb:txw2:2.3.1]){Success}[]{Custom}[2.3.1/4.0.5][2018-09-12=>2024-03-06]
+    [com.oracle.database.jdbc:ucp:19.3.0.0]<Java>[0]:(WEB-INF/lib/ucp-19.3.0.0.jar/[com.oracle.database.jdbc:ucp:19.3.0.0]){Success}[]{Custom}[19.3.0.0/23.3.0.23.09][2020-02-21=>2023-09-27]
+    [com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]){No Check}[]{}[0.0.1-SNAPSHOT/0.0.1-SNAPSHOT][=>]
+        [org.apache.httpcomponents:httpclient:4.4]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.apache.httpcomponents:httpclient:4.4]){No Check}[]{Apache-2.0}[4.4/4.5.14][2015-01-27=>2022-11-30]
+        [log4j:log4j:1.2.17]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[log4j:log4j:1.2.17]){No Check}[]{Apache-2.0}[1.2.17/1.2.17-atlassian-13][2012-05-26=>2020-05-28]
+        [org.apache.taglibs:taglibs-standard-impl:1.2.5]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.apache.taglibs:taglibs-standard-impl:1.2.5]){No Check}[]{Apache-2.0}[1.2.5/1.2.5][2015-03-10=>2015-03-10]
+        [org.apache.taglibs:taglibs-standard-spec:1.2.5]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.apache.taglibs:taglibs-standard-spec:1.2.5]){No Check}[]{Apache-2.0}[1.2.5/1.2.5][2015-03-10=>2015-03-10]
+        [org.apache.commons:commons-collections4:4.0]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.apache.commons:commons-collections4:4.0]){No Check}[]{Apache-2.0}[4.0/4.4][2013-11-20=>2019-07-05]
+        [commons-fileupload:commons-fileupload:1.3.2]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[commons-fileupload:commons-fileupload:1.3.2]){No Check}[]{Apache-2.0}[1.3.2/1.5][2016-05-23=>2023-02-01]
+        [commons-httpclient:commons-httpclient:3.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[commons-httpclient:commons-httpclient:3.1]){No Check}[]{}[3.1/3.1-atlassian-2][2007-08-21=>2019-04-14]
+        [commons-io:commons-io:2.5]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[commons-io:commons-io:2.5]){No Check}[]{}[2.5/2.15.1][2016-04-22=>2023-11-24]
+        [mysql:mysql-connector-java:5.1.6]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[mysql:mysql-connector-java:5.1.6]){No Check}[]{GPL-2.0-only}[5.1.6/8.0.33][2015-05-08=>2023-03-07]
+        [com.oracle.ojdbc:ojdbc8:19.3.0.0]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[com.oracle.ojdbc:ojdbc8:19.3.0.0]){No Check}[]{Custom}[19.3.0.0/19.3.0.0][2019-09-13=>2019-09-13]
+        [com.squareup.okhttp3:okhttp:3.7.0]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[com.squareup.okhttp3:okhttp:3.7.0]){No Check}[]{Apache-2.0}[3.7.0/5.0.0-alpha.12][2017-04-15=>2023-12-17]
+        [com.squareup.okhttp:okhttp:2.7.5]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[com.squareup.okhttp:okhttp:2.7.5]){No Check}[]{Apache-2.0}[2.7.5/2.7.5][2016-02-26=>2016-02-26]
+        [net.sf.json-lib:json-lib:2.4]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[net.sf.json-lib:json-lib:2.4]){No Check}[]{Apache-2.0}[2.4/2.4][2010-12-14=>2010-12-14]
+        [jstl:jstl:1.2]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[jstl:jstl:1.2]){No Check}[]{}[1.2/1.2][2006-07-21=>2006-07-21]
+        [dom4j:dom4j:1.6.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[dom4j:dom4j:1.6.1]){No Check}[]{}[1.6.1/1.6.1-atlassian-3][2005-09-20=>2021-04-26]
+        [org.jdom:jdom:1.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.jdom:jdom:1.1]){No Check}[]{Custom}[1.1/2.0.2][2007-11-14=>2012-06-09]
+        [xerces:xercesImpl:2.9.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[xerces:xercesImpl:2.9.1]){No Check}[]{Apache-2.0}[2.9.1/2.12.2][2008-10-01=>2022-01-27]
+        [xml-apis:xml-apis:1.4.01]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[xml-apis:xml-apis:1.4.01]){No Check}[]{}[1.4.01/2.0.2][2011-08-20=>2005-09-20]
+        [com.fasterxml.woodstox:woodstox-core:5.0.3]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[com.fasterxml.woodstox:woodstox-core:5.0.3]){No Check}[]{Apache-2.0}[5.0.3/6.6.1][2016-08-23=>2024-02-26]
+        [org.hsqldb:hsqldb:2.3.2]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.hsqldb:hsqldb:2.3.2]){No Check}[]{BSD-3-Clause}[2.3.2/2.7.2][2014-02-14=>2023-05-31]
+        [org.mybatis:mybatis:3.2.8]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.mybatis:mybatis:3.2.8]){No Check}[]{Apache-2.0}[3.2.8/3.5.15][2014-10-10=>2023-12-14]
+        [org.hibernate:hibernate-core:5.4.4.Final]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.hibernate:hibernate-core:5.4.4.Final]){No Check}[]{LGPL-2.1-or-later}[5.4.4.Final/6.4.4.Final][2019-07-30=>2024-02-08]
+        [org.jboss.logging:jboss-logging:3.3.2.Final]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.jboss.logging:jboss-logging:3.3.2.Final]){No Check}[]{Apache-2.0}[3.3.2.Final/3.5.3.Final][2018-02-14=>2023-07-06]
+        [javax.persistence:javax.persistence-api:2.2]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[javax.persistence:javax.persistence-api:2.2]){No Check}[]{Custom,EPL-1.0}[2.2/2.2][2017-08-21=>2017-08-21]
+        [org.javassist:javassist:3.24.0-GA]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.javassist:javassist:3.24.0-GA]){No Check}[]{LGPL-2.1,MPL-1.1,Apache-2.0}[3.24.0-GA/3.30.2-GA][2018-11-01=>2023-12-24]
+        [net.bytebuddy:byte-buddy:1.9.11]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[net.bytebuddy:byte-buddy:1.9.11]){No Check}[]{Apache-2.0}[1.9.11/1.14.12][2019-03-21=>2024-02-16]
+        [antlr:antlr:2.7.7]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[antlr:antlr:2.7.7]){No Check}[]{}[2.7.7/3.0ea8][2007-01-13=>2007-01-13]
+        [org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.1.1.Final]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.1.1.Final]){No Check}[]{CDDL-1.0}[1.1.1.Final/2.0.0.CR1][2018-01-19=>2019-08-28]
+        [org.jboss:jandex:2.0.5.Final]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.jboss:jandex:2.0.5.Final]){No Check}[]{}[2.0.5.Final/3.1.7][2018-03-07=>2024-03-14]
+        [com.fasterxml:classmate:1.3.4]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[com.fasterxml:classmate:1.3.4]){No Check}[]{Apache-2.0}[1.3.4/1.7.0][2017-09-09=>2024-01-03]
+        [javax.activation:javax.activation-api:1.2.0]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[javax.activation:javax.activation-api:1.2.0]){No Check}[]{Custom}[1.2.0/1.2.0][2017-09-06=>2017-09-06]
+        [org.dom4j:dom4j:2.1.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.dom4j:dom4j:2.1.1]){No Check}[]{BSD-3-Clause}[2.1.1/2.1.4][2018-07-01=>2023-01-22]
+        [org.hibernate.common:hibernate-commons-annotations:5.1.0.Final]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.hibernate.common:hibernate-commons-annotations:5.1.0.Final]){No Check}[]{LGPL-2.1-or-later}[5.1.0.Final/6.0.6.Final][2018-11-08=>2023-01-26]
+        [javax.xml.bind:jaxb-api:2.3.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[javax.xml.bind:jaxb-api:2.3.1]){No Check}[]{Custom,CDDL-1.1}[2.3.1/2.4.0-b180830.0359][2018-09-12=>2018-08-30]
+        [org.glassfish.jaxb:jaxb-runtime:2.3.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.glassfish.jaxb:jaxb-runtime:2.3.1]){No Check}[]{Custom}[2.3.1/4.0.5][2018-09-12=>2024-03-06]
+        [org.mongodb:mongo-java-driver:3.6.4]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.mongodb:mongo-java-driver:3.6.4]){No Check}[]{Apache-2.0}[3.6.4/3.12.14][2018-05-29=>2023-06-07]
+        [org.w3c:dom:2.3.0-jaxb-1.0.6]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.w3c:dom:2.3.0-jaxb-1.0.6]){No Check}[]{}[2.3.0-jaxb-1.0.6/2.3.0-jaxb-1.0.6][2010-05-20=>2010-05-20]
+
+[INFO] 2024/05/22 09:49:45 sync.go:39: terminate task 56242057447243776
+[INFO] 2024/05/22 09:49:45 main.go:119: running task: 0, waiting task: 0
+[DEBUG] 2024/05/22 09:49:49 status.go:26: get task 56242057447243776 status: [Task Complete]
+[DEBUG] 2024/05/22 09:49:49 result.go:27: get task 56242057447243776 result
+[INFO] 2024/05/22 09:49:49 result.go:61: task 56242057447243776 components count: 66 load success
+[INFO] 2024/05/22 09:49:49 result.go:18: task 56242057447243776 components count: 66
+[INFO] 2024/05/22 09:49:49 task.go:54: delete task 56242057447243776
+[INFO] 2024/05/22 09:50:04 task.go:32: [0/10000] waiting task: 56242058174889984:[File|Normol|Fast|-1|false](http://192.168.172.77:8080/iast/static/app_package/fdc6e273-83de-4674-9c95-7ab15a0152ca/vulns_xin.war)
+[INFO] 2024/05/22 09:50:04 task.go:86: task 56242058174889984 status: [Task Waiting]
+[INFO] 2024/05/22 09:50:04 task.go:64: task 56242058174889984 progress: [Task Queuing]
+[INFO] 2024/05/22 09:50:04 main.go:100: running task: 1, waiting task: 0
+[INFO] 2024/05/22 09:50:04 task.go:86: task 56242058174889984 status: [Task Analyzing]
+[INFO] 2024/05/22 09:50:04 task.go:64: task 56242058174889984 progress: [Data Downloading]
+[INFO] 2024/05/22 09:50:05 task.go:64: task 56242058174889984 progress: [Task Scanning]
+[INFO] 2024/05/22 09:50:06 task.go:64: task 56242058174889984 progress: [Task Scanning]
+[INFO] 2024/05/22 09:50:06 task.go:64: task 56242058174889984 progress: [Cleaning Data]
+[INFO] 2024/05/22 09:50:06 task.go:64: task 56242058174889984 progress: [Searching Vulns]
+[INFO] 2024/05/22 09:50:07 result.go:51: task 56242058174889984 components count: 66 save success
+[INFO] 2024/05/22 09:50:07 task.go:64: task 56242058174889984 progress: [Task Compelete]
+[INFO] 2024/05/22 09:50:07 task.go:86: task 56242058174889984 status: [Task Complete]
+[DEBUG] 2024/05/22 09:50:07 engine.go:89: task 56242058174889984:
+
+[vulns_xin:]<None>[0]:(vulns_xin.war){No Check}[]{}[/][=>]
+    [commons-beanutils:commons-beanutils:1.8.0]<Java>[0]:(WEB-INF/lib/commons-beanutils-1.8.0.jar/[commons-beanutils:commons-beanutils:1.8.0]){Success}[]{}[1.8.0/1.9.4][2008-08-28=>2019-07-28]
+    [commons-codec:commons-codec:1.9]<Java>[0]:(WEB-INF/lib/commons-codec-1.9.jar/[commons-codec:commons-codec:1.9]){Success}[]{Apache-2.0}[1.9/1.16.1][2013-12-21=>2024-02-04]
+    [commons-collections:commons-collections:3.2.1]<Java>[0]:(WEB-INF/lib/commons-collections-3.2.1.jar/[commons-collections:commons-collections:3.2.1]){Success}[]{}[3.2.1/3.2.2][2008-04-15=>2015-11-12]
+    [commons-lang:commons-lang:2.5]<Java>[0]:(WEB-INF/lib/commons-lang-2.5.jar/[commons-lang:commons-lang:2.5]){Success}[]{}[2.5/2.6][2010-02-25=>2011-01-16]
+    [commons-logging:commons-logging:1.2]<Java>[0]:(WEB-INF/lib/commons-logging-1.2.jar/[commons-logging:commons-logging:1.2]){Success}[]{Apache-2.0}[1.2/1.3.0][2014-07-05=>2023-11-26]
+    [org.zenframework.z8.dependencies.commons:dom4j-1.6.1:2.0]<Java>[0]:(WEB-INF/lib/dom4j-1.6.1.jar/[org.zenframework.z8.dependencies.commons:dom4j-1.6.1:2.0]){Success}[]{MIT}[2.0/2.0][2018-02-14=>2018-02-14]
+    [net.sf.ezmorph:ezmorph:1.0.6]<Java>[0]:(WEB-INF/lib/ezmorph-1.0.6.jar/[net.sf.ezmorph:ezmorph:1.0.6]){Success}[]{Apache-2.0}[1.0.6/1.0.6][2008-12-26=>2008-12-26]
+    [com.sun.xml.fastinfoset:FastInfoset:1.2.15]<Java>[0]:(WEB-INF/lib/FastInfoset-1.2.15.jar/[com.sun.xml.fastinfoset:FastInfoset:1.2.15]){Success}[]{Custom,Apache-2.0}[1.2.15/2.1.1][2018-08-29=>2023-10-20]
+    [org.apache.httpcomponents:httpcore:4.4]<Java>[0]:(WEB-INF/lib/httpcore-4.4.jar/[org.apache.httpcomponents:httpcore:4.4]){Success}[]{Apache-2.0}[4.4/4.4.16][2014-12-14=>2022-11-26]
+    [com.sun.istack:istack-commons-runtime:3.0.7]<Java>[0]:(WEB-INF/lib/istack-commons-runtime-3.0.7.jar/[com.sun.istack:istack-commons-runtime:3.0.7]){Success}[]{Custom}[3.0.7/4.2.0][2018-08-29=>2023-04-14]
+    [one.gfw:javax.activation-api:1.2.0]<Java>[0]:(WEB-INF/lib/javax.activation-api-1.2.0.jar/[one.gfw:javax.activation-api:1.2.0]){Success}[]{}[1.2.0/1.2.0][2023-03-17=>2023-03-17]
+    [one.gfw:jaxb-api:2.3.1.1]<Java>[0]:(WEB-INF/lib/jaxb-api-2.3.1.jar/[one.gfw:jaxb-api:2.3.1.1]){Success}[]{}[2.3.1.1/2.3.1.1][2023-03-17=>2023-03-17]
+    [com.hynnet:json-lib:2.4]<Java>[0]:(WEB-INF/lib/json-lib-2.4-jdk15.jar/[com.hynnet:json-lib:2.4]){Success}[]{Apache-2.0}[2.4/2.4][2015-10-10=>2015-10-10]
+    [org.zenframework.z8.dependencies.commons:log4j-1.2.17:2.0]<Java>[0]:(WEB-INF/lib/log4j-1.2.17.jar/[org.zenframework.z8.dependencies.commons:log4j-1.2.17:2.0]){Success}[]{MIT}[2.0/2.0][2018-02-14=>2018-02-14]
+    [mysql:mysql-connector-java:8.0.22]<Java>[0]:(WEB-INF/lib/mysql-connector-java-8.0.22.jar/[mysql:mysql-connector-java:8.0.22]){Success}[]{GPL-2.0-only}[8.0.22/8.0.33][2020-09-10=>2023-03-07]
+    [com.oracle.database.jdbc:ojdbc8:19.3.0.0]<Java>[0]:(WEB-INF/lib/ojdbc8-19.3.0.0.jar/[com.oracle.database.jdbc:ojdbc8:19.3.0.0]){Success}[]{Custom}[19.3.0.0/23.3.0.23.09][2020-02-21=>2023-09-27]
+    [com.squareup.okio:okio:1.12.0]<Java>[0]:(WEB-INF/lib/okio-1.12.0.jar/[com.squareup.okio:okio:1.12.0]){Success}[]{Apache-2.0}[1.12.0/3.9.0][2017-04-11=>2024-03-13]
+    [com.oracle.database.ha:ons:19.3.0.0]<Java>[0]:(WEB-INF/lib/ons-19.3.0.0.jar/[com.oracle.database.ha:ons:19.3.0.0]){Success}[]{Custom}[19.3.0.0/23.3.0.23.09][2020-02-21=>2023-09-27]
+    [com.oracle.database.security:oraclepki:19.3.0.0]<Java>[0]:(WEB-INF/lib/oraclepki-19.3.0.0.jar/[com.oracle.database.security:oraclepki:19.3.0.0]){Success}[]{Custom}[19.3.0.0/23.3.0.23.09][2020-02-21=>2023-09-27]
+    [com.oracle.database.security:osdt_cert:19.3.0.0]<Java>[0]:(WEB-INF/lib/osdt_cert-19.3.0.0.jar/[com.oracle.database.security:osdt_cert:19.3.0.0]){Success}[]{Custom}[19.3.0.0/21.13.0.0][2020-02-21=>2024-02-07]
+    [com.oracle.database.security:osdt_core:19.3.0.0]<Java>[0]:(WEB-INF/lib/osdt_core-19.3.0.0.jar/[com.oracle.database.security:osdt_core:19.3.0.0]){Success}[]{Custom}[19.3.0.0/21.13.0.0][2020-02-21=>2024-02-07]
+    [com.google.protobuf:protobuf-java:3.11.4]<Java>[0]:(WEB-INF/lib/protobuf-java-3.11.4.jar/[com.google.protobuf:protobuf-java:3.11.4]){Success}[]{BSD-3-Clause}[3.11.4/4.26.0][2020-02-14=>2024-03-13]
+    [com.oracle.ojdbc:simplefan:19.3.0.0]<Java>[0]:(WEB-INF/lib/simplefan-19.3.0.0.jar/[com.oracle.ojdbc:simplefan:19.3.0.0]){Success}[]{Custom}[19.3.0.0/19.3.0.0][2019-09-13=>2019-09-13]
+    [org.jvnet.staxex:stax-ex:1.8]<Java>[0]:(WEB-INF/lib/stax-ex-1.8.jar/[org.jvnet.staxex:stax-ex:1.8]){Success}[]{CDDL-1.0}[1.8/2.1.0][2018-04-24=>2022-02-17]
+    [org.codehaus.woodstox:stax2-api:3.1.4]<Java>[0]:(WEB-INF/lib/stax2-api-3.1.4.jar/[org.codehaus.woodstox:stax2-api:3.1.4]){Success}[]{BSD-3-Clause}[3.1.4/4.2.2][2014-02-27=>2023-10-10]
+    [org.glassfish.jaxb:txw2:2.3.1]<Java>[0]:(WEB-INF/lib/txw2-2.3.1.jar/[org.glassfish.jaxb:txw2:2.3.1]){Success}[]{Custom}[2.3.1/4.0.5][2018-09-12=>2024-03-06]
+    [com.oracle.database.jdbc:ucp:19.3.0.0]<Java>[0]:(WEB-INF/lib/ucp-19.3.0.0.jar/[com.oracle.database.jdbc:ucp:19.3.0.0]){Success}[]{Custom}[19.3.0.0/23.3.0.23.09][2020-02-21=>2023-09-27]
+    [com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]){No Check}[]{}[0.0.1-SNAPSHOT/0.0.1-SNAPSHOT][=>]
+        [org.apache.httpcomponents:httpclient:4.4]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.apache.httpcomponents:httpclient:4.4]){No Check}[]{Apache-2.0}[4.4/4.5.14][2015-01-27=>2022-11-30]
+        [log4j:log4j:1.2.17]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[log4j:log4j:1.2.17]){No Check}[]{Apache-2.0}[1.2.17/1.2.17-atlassian-13][2012-05-26=>2020-05-28]
+        [org.apache.taglibs:taglibs-standard-impl:1.2.5]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.apache.taglibs:taglibs-standard-impl:1.2.5]){No Check}[]{Apache-2.0}[1.2.5/1.2.5][2015-03-10=>2015-03-10]
+        [org.apache.taglibs:taglibs-standard-spec:1.2.5]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.apache.taglibs:taglibs-standard-spec:1.2.5]){No Check}[]{Apache-2.0}[1.2.5/1.2.5][2015-03-10=>2015-03-10]
+        [org.apache.commons:commons-collections4:4.0]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.apache.commons:commons-collections4:4.0]){No Check}[]{Apache-2.0}[4.0/4.4][2013-11-20=>2019-07-05]
+        [commons-fileupload:commons-fileupload:1.3.2]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[commons-fileupload:commons-fileupload:1.3.2]){No Check}[]{Apache-2.0}[1.3.2/1.5][2016-05-23=>2023-02-01]
+        [commons-httpclient:commons-httpclient:3.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[commons-httpclient:commons-httpclient:3.1]){No Check}[]{}[3.1/3.1-atlassian-2][2007-08-21=>2019-04-14]
+        [commons-io:commons-io:2.5]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[commons-io:commons-io:2.5]){No Check}[]{}[2.5/2.15.1][2016-04-22=>2023-11-24]
+        [mysql:mysql-connector-java:5.1.6]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[mysql:mysql-connector-java:5.1.6]){No Check}[]{GPL-2.0-only}[5.1.6/8.0.33][2015-05-08=>2023-03-07]
+        [com.oracle.ojdbc:ojdbc8:19.3.0.0]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[com.oracle.ojdbc:ojdbc8:19.3.0.0]){No Check}[]{Custom}[19.3.0.0/19.3.0.0][2019-09-13=>2019-09-13]
+        [com.squareup.okhttp3:okhttp:3.7.0]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[com.squareup.okhttp3:okhttp:3.7.0]){No Check}[]{Apache-2.0}[3.7.0/5.0.0-alpha.12][2017-04-15=>2023-12-17]
+        [com.squareup.okhttp:okhttp:2.7.5]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[com.squareup.okhttp:okhttp:2.7.5]){No Check}[]{Apache-2.0}[2.7.5/2.7.5][2016-02-26=>2016-02-26]
+        [net.sf.json-lib:json-lib:2.4]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[net.sf.json-lib:json-lib:2.4]){No Check}[]{Apache-2.0}[2.4/2.4][2010-12-14=>2010-12-14]
+        [jstl:jstl:1.2]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[jstl:jstl:1.2]){No Check}[]{}[1.2/1.2][2006-07-21=>2006-07-21]
+        [dom4j:dom4j:1.6.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[dom4j:dom4j:1.6.1]){No Check}[]{}[1.6.1/1.6.1-atlassian-3][2005-09-20=>2021-04-26]
+        [org.jdom:jdom:1.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.jdom:jdom:1.1]){No Check}[]{Custom}[1.1/2.0.2][2007-11-14=>2012-06-09]
+        [xerces:xercesImpl:2.9.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[xerces:xercesImpl:2.9.1]){No Check}[]{Apache-2.0}[2.9.1/2.12.2][2008-10-01=>2022-01-27]
+        [xml-apis:xml-apis:1.4.01]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[xml-apis:xml-apis:1.4.01]){No Check}[]{}[1.4.01/2.0.2][2011-08-20=>2005-09-20]
+        [com.fasterxml.woodstox:woodstox-core:5.0.3]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[com.fasterxml.woodstox:woodstox-core:5.0.3]){No Check}[]{Apache-2.0}[5.0.3/6.6.1][2016-08-23=>2024-02-26]
+        [org.hsqldb:hsqldb:2.3.2]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.hsqldb:hsqldb:2.3.2]){No Check}[]{BSD-3-Clause}[2.3.2/2.7.2][2014-02-14=>2023-05-31]
+        [org.mybatis:mybatis:3.2.8]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.mybatis:mybatis:3.2.8]){No Check}[]{Apache-2.0}[3.2.8/3.5.15][2014-10-10=>2023-12-14]
+        [org.hibernate:hibernate-core:5.4.4.Final]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.hibernate:hibernate-core:5.4.4.Final]){No Check}[]{LGPL-2.1-or-later}[5.4.4.Final/6.4.4.Final][2019-07-30=>2024-02-08]
+        [org.jboss.logging:jboss-logging:3.3.2.Final]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.jboss.logging:jboss-logging:3.3.2.Final]){No Check}[]{Apache-2.0}[3.3.2.Final/3.5.3.Final][2018-02-14=>2023-07-06]
+        [javax.persistence:javax.persistence-api:2.2]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[javax.persistence:javax.persistence-api:2.2]){No Check}[]{Custom,EPL-1.0}[2.2/2.2][2017-08-21=>2017-08-21]
+        [org.javassist:javassist:3.24.0-GA]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.javassist:javassist:3.24.0-GA]){No Check}[]{LGPL-2.1,MPL-1.1,Apache-2.0}[3.24.0-GA/3.30.2-GA][2018-11-01=>2023-12-24]
+        [net.bytebuddy:byte-buddy:1.9.11]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[net.bytebuddy:byte-buddy:1.9.11]){No Check}[]{Apache-2.0}[1.9.11/1.14.12][2019-03-21=>2024-02-16]
+        [antlr:antlr:2.7.7]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[antlr:antlr:2.7.7]){No Check}[]{}[2.7.7/3.0ea8][2007-01-13=>2007-01-13]
+        [org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.1.1.Final]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.1.1.Final]){No Check}[]{CDDL-1.0}[1.1.1.Final/2.0.0.CR1][2018-01-19=>2019-08-28]
+        [org.jboss:jandex:2.0.5.Final]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.jboss:jandex:2.0.5.Final]){No Check}[]{}[2.0.5.Final/3.1.7][2018-03-07=>2024-03-14]
+        [com.fasterxml:classmate:1.3.4]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[com.fasterxml:classmate:1.3.4]){No Check}[]{Apache-2.0}[1.3.4/1.7.0][2017-09-09=>2024-01-03]
+        [javax.activation:javax.activation-api:1.2.0]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[javax.activation:javax.activation-api:1.2.0]){No Check}[]{Custom}[1.2.0/1.2.0][2017-09-06=>2017-09-06]
+        [org.dom4j:dom4j:2.1.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.dom4j:dom4j:2.1.1]){No Check}[]{BSD-3-Clause}[2.1.1/2.1.4][2018-07-01=>2023-01-22]
+        [org.hibernate.common:hibernate-commons-annotations:5.1.0.Final]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.hibernate.common:hibernate-commons-annotations:5.1.0.Final]){No Check}[]{LGPL-2.1-or-later}[5.1.0.Final/6.0.6.Final][2018-11-08=>2023-01-26]
+        [javax.xml.bind:jaxb-api:2.3.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[javax.xml.bind:jaxb-api:2.3.1]){No Check}[]{Custom,CDDL-1.1}[2.3.1/2.4.0-b180830.0359][2018-09-12=>2018-08-30]
+        [org.glassfish.jaxb:jaxb-runtime:2.3.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.glassfish.jaxb:jaxb-runtime:2.3.1]){No Check}[]{Custom}[2.3.1/4.0.5][2018-09-12=>2024-03-06]
+        [org.mongodb:mongo-java-driver:3.6.4]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.mongodb:mongo-java-driver:3.6.4]){No Check}[]{Apache-2.0}[3.6.4/3.12.14][2018-05-29=>2023-06-07]
+        [org.w3c:dom:2.3.0-jaxb-1.0.6]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.w3c:dom:2.3.0-jaxb-1.0.6]){No Check}[]{}[2.3.0-jaxb-1.0.6/2.3.0-jaxb-1.0.6][2010-05-20=>2010-05-20]
+
+[INFO] 2024/05/22 09:50:07 sync.go:39: terminate task 56242058174889984
+[INFO] 2024/05/22 09:50:07 main.go:119: running task: 0, waiting task: 0
+[DEBUG] 2024/05/22 09:50:22 status.go:26: get task 56242058174889984 status: [Task Complete]
+[DEBUG] 2024/05/22 09:50:22 result.go:27: get task 56242058174889984 result
+[INFO] 2024/05/22 09:50:22 result.go:61: task 56242058174889984 components count: 66 load success
+[INFO] 2024/05/22 09:50:22 result.go:18: task 56242058174889984 components count: 66
+[INFO] 2024/05/22 09:50:22 task.go:54: delete task 56242058174889984
+[INFO] 2024/05/23 01:32:04 task.go:32: [0/10000] waiting task: 56243910242664448:[File|Normol|Fast|-1|false](http://192.168.172.77:8080/iast/static/app_package/fdc6e273-83de-4674-9c95-7ab15a0152ca/vulns_xin.war)
+[INFO] 2024/05/23 01:32:04 task.go:86: task 56243910242664448 status: [Task Waiting]
+[INFO] 2024/05/23 01:32:04 task.go:64: task 56243910242664448 progress: [Task Queuing]
+[INFO] 2024/05/23 01:32:04 main.go:100: running task: 1, waiting task: 0
+[INFO] 2024/05/23 01:32:04 task.go:86: task 56243910242664448 status: [Task Analyzing]
+[INFO] 2024/05/23 01:32:04 task.go:64: task 56243910242664448 progress: [Data Downloading]
+[DEBUG] 2024/05/23 01:32:05 status.go:26: get task 56243910242664448 status: [Task Analyzing]
+[INFO] 2024/05/23 01:32:06 task.go:64: task 56243910242664448 progress: [Task Scanning]
+[INFO] 2024/05/23 01:32:07 task.go:64: task 56243910242664448 progress: [Task Scanning]
+[INFO] 2024/05/23 01:32:07 task.go:64: task 56243910242664448 progress: [Cleaning Data]
+[INFO] 2024/05/23 01:32:07 task.go:64: task 56243910242664448 progress: [Searching Vulns]
+[INFO] 2024/05/23 01:32:07 result.go:51: task 56243910242664448 components count: 66 save success
+[INFO] 2024/05/23 01:32:07 task.go:64: task 56243910242664448 progress: [Task Compelete]
+[INFO] 2024/05/23 01:32:07 task.go:86: task 56243910242664448 status: [Task Complete]
+[DEBUG] 2024/05/23 01:32:07 engine.go:89: task 56243910242664448:
+
+[vulns_xin:]<None>[0]:(vulns_xin.war){No Check}[]{}[/][=>]
+    [commons-beanutils:commons-beanutils:1.8.0]<Java>[0]:(WEB-INF/lib/commons-beanutils-1.8.0.jar/[commons-beanutils:commons-beanutils:1.8.0]){Success}[]{}[1.8.0/1.9.4][2008-08-28=>2019-07-28]
+    [commons-codec:commons-codec:1.9]<Java>[0]:(WEB-INF/lib/commons-codec-1.9.jar/[commons-codec:commons-codec:1.9]){Success}[]{Apache-2.0}[1.9/1.16.1][2013-12-21=>2024-02-04]
+    [commons-collections:commons-collections:3.2.1]<Java>[0]:(WEB-INF/lib/commons-collections-3.2.1.jar/[commons-collections:commons-collections:3.2.1]){Success}[]{}[3.2.1/3.2.2][2008-04-15=>2015-11-12]
+    [commons-lang:commons-lang:2.5]<Java>[0]:(WEB-INF/lib/commons-lang-2.5.jar/[commons-lang:commons-lang:2.5]){Success}[]{}[2.5/2.6][2010-02-25=>2011-01-16]
+    [commons-logging:commons-logging:1.2]<Java>[0]:(WEB-INF/lib/commons-logging-1.2.jar/[commons-logging:commons-logging:1.2]){Success}[]{Apache-2.0}[1.2/1.3.0][2014-07-05=>2023-11-26]
+    [org.zenframework.z8.dependencies.commons:dom4j-1.6.1:2.0]<Java>[0]:(WEB-INF/lib/dom4j-1.6.1.jar/[org.zenframework.z8.dependencies.commons:dom4j-1.6.1:2.0]){Success}[]{MIT}[2.0/2.0][2018-02-14=>2018-02-14]
+    [net.sf.ezmorph:ezmorph:1.0.6]<Java>[0]:(WEB-INF/lib/ezmorph-1.0.6.jar/[net.sf.ezmorph:ezmorph:1.0.6]){Success}[]{Apache-2.0}[1.0.6/1.0.6][2008-12-26=>2008-12-26]
+    [com.sun.xml.fastinfoset:FastInfoset:1.2.15]<Java>[0]:(WEB-INF/lib/FastInfoset-1.2.15.jar/[com.sun.xml.fastinfoset:FastInfoset:1.2.15]){Success}[]{Custom,Apache-2.0}[1.2.15/2.1.1][2018-08-29=>2023-10-20]
+    [org.apache.httpcomponents:httpcore:4.4]<Java>[0]:(WEB-INF/lib/httpcore-4.4.jar/[org.apache.httpcomponents:httpcore:4.4]){Success}[]{Apache-2.0}[4.4/4.4.16][2014-12-14=>2022-11-26]
+    [com.sun.istack:istack-commons-runtime:3.0.7]<Java>[0]:(WEB-INF/lib/istack-commons-runtime-3.0.7.jar/[com.sun.istack:istack-commons-runtime:3.0.7]){Success}[]{Custom}[3.0.7/4.2.0][2018-08-29=>2023-04-14]
+    [one.gfw:javax.activation-api:1.2.0]<Java>[0]:(WEB-INF/lib/javax.activation-api-1.2.0.jar/[one.gfw:javax.activation-api:1.2.0]){Success}[]{}[1.2.0/1.2.0][2023-03-17=>2023-03-17]
+    [one.gfw:jaxb-api:2.3.1.1]<Java>[0]:(WEB-INF/lib/jaxb-api-2.3.1.jar/[one.gfw:jaxb-api:2.3.1.1]){Success}[]{}[2.3.1.1/2.3.1.1][2023-03-17=>2023-03-17]
+    [com.hynnet:json-lib:2.4]<Java>[0]:(WEB-INF/lib/json-lib-2.4-jdk15.jar/[com.hynnet:json-lib:2.4]){Success}[]{Apache-2.0}[2.4/2.4][2015-10-10=>2015-10-10]
+    [org.zenframework.z8.dependencies.commons:log4j-1.2.17:2.0]<Java>[0]:(WEB-INF/lib/log4j-1.2.17.jar/[org.zenframework.z8.dependencies.commons:log4j-1.2.17:2.0]){Success}[]{MIT}[2.0/2.0][2018-02-14=>2018-02-14]
+    [mysql:mysql-connector-java:8.0.22]<Java>[0]:(WEB-INF/lib/mysql-connector-java-8.0.22.jar/[mysql:mysql-connector-java:8.0.22]){Success}[]{GPL-2.0-only}[8.0.22/8.0.33][2020-09-10=>2023-03-07]
+    [com.oracle.database.jdbc:ojdbc8:19.3.0.0]<Java>[0]:(WEB-INF/lib/ojdbc8-19.3.0.0.jar/[com.oracle.database.jdbc:ojdbc8:19.3.0.0]){Success}[]{Custom}[19.3.0.0/23.3.0.23.09][2020-02-21=>2023-09-27]
+    [com.squareup.okio:okio:1.12.0]<Java>[0]:(WEB-INF/lib/okio-1.12.0.jar/[com.squareup.okio:okio:1.12.0]){Success}[]{Apache-2.0}[1.12.0/3.9.0][2017-04-11=>2024-03-13]
+    [com.oracle.database.ha:ons:19.3.0.0]<Java>[0]:(WEB-INF/lib/ons-19.3.0.0.jar/[com.oracle.database.ha:ons:19.3.0.0]){Success}[]{Custom}[19.3.0.0/23.3.0.23.09][2020-02-21=>2023-09-27]
+    [com.oracle.database.security:oraclepki:19.3.0.0]<Java>[0]:(WEB-INF/lib/oraclepki-19.3.0.0.jar/[com.oracle.database.security:oraclepki:19.3.0.0]){Success}[]{Custom}[19.3.0.0/23.3.0.23.09][2020-02-21=>2023-09-27]
+    [com.oracle.database.security:osdt_cert:19.3.0.0]<Java>[0]:(WEB-INF/lib/osdt_cert-19.3.0.0.jar/[com.oracle.database.security:osdt_cert:19.3.0.0]){Success}[]{Custom}[19.3.0.0/21.13.0.0][2020-02-21=>2024-02-07]
+    [com.oracle.database.security:osdt_core:19.3.0.0]<Java>[0]:(WEB-INF/lib/osdt_core-19.3.0.0.jar/[com.oracle.database.security:osdt_core:19.3.0.0]){Success}[]{Custom}[19.3.0.0/21.13.0.0][2020-02-21=>2024-02-07]
+    [com.google.protobuf:protobuf-java:3.11.4]<Java>[0]:(WEB-INF/lib/protobuf-java-3.11.4.jar/[com.google.protobuf:protobuf-java:3.11.4]){Success}[]{BSD-3-Clause}[3.11.4/4.26.0][2020-02-14=>2024-03-13]
+    [com.oracle.ojdbc:simplefan:19.3.0.0]<Java>[0]:(WEB-INF/lib/simplefan-19.3.0.0.jar/[com.oracle.ojdbc:simplefan:19.3.0.0]){Success}[]{Custom}[19.3.0.0/19.3.0.0][2019-09-13=>2019-09-13]
+    [org.jvnet.staxex:stax-ex:1.8]<Java>[0]:(WEB-INF/lib/stax-ex-1.8.jar/[org.jvnet.staxex:stax-ex:1.8]){Success}[]{CDDL-1.0}[1.8/2.1.0][2018-04-24=>2022-02-17]
+    [org.codehaus.woodstox:stax2-api:3.1.4]<Java>[0]:(WEB-INF/lib/stax2-api-3.1.4.jar/[org.codehaus.woodstox:stax2-api:3.1.4]){Success}[]{BSD-3-Clause}[3.1.4/4.2.2][2014-02-27=>2023-10-10]
+    [org.glassfish.jaxb:txw2:2.3.1]<Java>[0]:(WEB-INF/lib/txw2-2.3.1.jar/[org.glassfish.jaxb:txw2:2.3.1]){Success}[]{Custom}[2.3.1/4.0.5][2018-09-12=>2024-03-06]
+    [com.oracle.database.jdbc:ucp:19.3.0.0]<Java>[0]:(WEB-INF/lib/ucp-19.3.0.0.jar/[com.oracle.database.jdbc:ucp:19.3.0.0]){Success}[]{Custom}[19.3.0.0/23.3.0.23.09][2020-02-21=>2023-09-27]
+    [com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]){No Check}[]{}[0.0.1-SNAPSHOT/0.0.1-SNAPSHOT][=>]
+        [org.apache.httpcomponents:httpclient:4.4]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.apache.httpcomponents:httpclient:4.4]){No Check}[]{Apache-2.0}[4.4/4.5.14][2015-01-27=>2022-11-30]
+        [log4j:log4j:1.2.17]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[log4j:log4j:1.2.17]){No Check}[]{Apache-2.0}[1.2.17/1.2.17-atlassian-13][2012-05-26=>2020-05-28]
+        [org.apache.taglibs:taglibs-standard-impl:1.2.5]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.apache.taglibs:taglibs-standard-impl:1.2.5]){No Check}[]{Apache-2.0}[1.2.5/1.2.5][2015-03-10=>2015-03-10]
+        [org.apache.taglibs:taglibs-standard-spec:1.2.5]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.apache.taglibs:taglibs-standard-spec:1.2.5]){No Check}[]{Apache-2.0}[1.2.5/1.2.5][2015-03-10=>2015-03-10]
+        [org.apache.commons:commons-collections4:4.0]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.apache.commons:commons-collections4:4.0]){No Check}[]{Apache-2.0}[4.0/4.4][2013-11-20=>2019-07-05]
+        [commons-fileupload:commons-fileupload:1.3.2]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[commons-fileupload:commons-fileupload:1.3.2]){No Check}[]{Apache-2.0}[1.3.2/1.5][2016-05-23=>2023-02-01]
+        [commons-httpclient:commons-httpclient:3.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[commons-httpclient:commons-httpclient:3.1]){No Check}[]{}[3.1/3.1-atlassian-2][2007-08-21=>2019-04-14]
+        [commons-io:commons-io:2.5]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[commons-io:commons-io:2.5]){No Check}[]{}[2.5/2.15.1][2016-04-22=>2023-11-24]
+        [mysql:mysql-connector-java:5.1.6]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[mysql:mysql-connector-java:5.1.6]){No Check}[]{GPL-2.0-only}[5.1.6/8.0.33][2015-05-08=>2023-03-07]
+        [com.oracle.ojdbc:ojdbc8:19.3.0.0]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[com.oracle.ojdbc:ojdbc8:19.3.0.0]){No Check}[]{Custom}[19.3.0.0/19.3.0.0][2019-09-13=>2019-09-13]
+        [com.squareup.okhttp3:okhttp:3.7.0]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[com.squareup.okhttp3:okhttp:3.7.0]){No Check}[]{Apache-2.0}[3.7.0/5.0.0-alpha.12][2017-04-15=>2023-12-17]
+        [com.squareup.okhttp:okhttp:2.7.5]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[com.squareup.okhttp:okhttp:2.7.5]){No Check}[]{Apache-2.0}[2.7.5/2.7.5][2016-02-26=>2016-02-26]
+        [net.sf.json-lib:json-lib:2.4]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[net.sf.json-lib:json-lib:2.4]){No Check}[]{Apache-2.0}[2.4/2.4][2010-12-14=>2010-12-14]
+        [jstl:jstl:1.2]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[jstl:jstl:1.2]){No Check}[]{}[1.2/1.2][2006-07-21=>2006-07-21]
+        [dom4j:dom4j:1.6.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[dom4j:dom4j:1.6.1]){No Check}[]{}[1.6.1/1.6.1-atlassian-3][2005-09-20=>2021-04-26]
+        [org.jdom:jdom:1.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.jdom:jdom:1.1]){No Check}[]{Custom}[1.1/2.0.2][2007-11-14=>2012-06-09]
+        [xerces:xercesImpl:2.9.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[xerces:xercesImpl:2.9.1]){No Check}[]{Apache-2.0}[2.9.1/2.12.2][2008-10-01=>2022-01-27]
+        [xml-apis:xml-apis:1.4.01]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[xml-apis:xml-apis:1.4.01]){No Check}[]{}[1.4.01/2.0.2][2011-08-20=>2005-09-20]
+        [com.fasterxml.woodstox:woodstox-core:5.0.3]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[com.fasterxml.woodstox:woodstox-core:5.0.3]){No Check}[]{Apache-2.0}[5.0.3/6.6.1][2016-08-23=>2024-02-26]
+        [org.hsqldb:hsqldb:2.3.2]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.hsqldb:hsqldb:2.3.2]){No Check}[]{BSD-3-Clause}[2.3.2/2.7.2][2014-02-14=>2023-05-31]
+        [org.mybatis:mybatis:3.2.8]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.mybatis:mybatis:3.2.8]){No Check}[]{Apache-2.0}[3.2.8/3.5.15][2014-10-10=>2023-12-14]
+        [org.hibernate:hibernate-core:5.4.4.Final]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.hibernate:hibernate-core:5.4.4.Final]){No Check}[]{LGPL-2.1-or-later}[5.4.4.Final/6.4.4.Final][2019-07-30=>2024-02-08]
+        [org.jboss.logging:jboss-logging:3.3.2.Final]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.jboss.logging:jboss-logging:3.3.2.Final]){No Check}[]{Apache-2.0}[3.3.2.Final/3.5.3.Final][2018-02-14=>2023-07-06]
+        [javax.persistence:javax.persistence-api:2.2]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[javax.persistence:javax.persistence-api:2.2]){No Check}[]{Custom,EPL-1.0}[2.2/2.2][2017-08-21=>2017-08-21]
+        [org.javassist:javassist:3.24.0-GA]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.javassist:javassist:3.24.0-GA]){No Check}[]{LGPL-2.1,MPL-1.1,Apache-2.0}[3.24.0-GA/3.30.2-GA][2018-11-01=>2023-12-24]
+        [net.bytebuddy:byte-buddy:1.9.11]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[net.bytebuddy:byte-buddy:1.9.11]){No Check}[]{Apache-2.0}[1.9.11/1.14.12][2019-03-21=>2024-02-16]
+        [antlr:antlr:2.7.7]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[antlr:antlr:2.7.7]){No Check}[]{}[2.7.7/3.0ea8][2007-01-13=>2007-01-13]
+        [org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.1.1.Final]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.1.1.Final]){No Check}[]{CDDL-1.0}[1.1.1.Final/2.0.0.CR1][2018-01-19=>2019-08-28]
+        [org.jboss:jandex:2.0.5.Final]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.jboss:jandex:2.0.5.Final]){No Check}[]{}[2.0.5.Final/3.1.7][2018-03-07=>2024-03-14]
+        [com.fasterxml:classmate:1.3.4]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[com.fasterxml:classmate:1.3.4]){No Check}[]{Apache-2.0}[1.3.4/1.7.0][2017-09-09=>2024-01-03]
+        [javax.activation:javax.activation-api:1.2.0]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[javax.activation:javax.activation-api:1.2.0]){No Check}[]{Custom}[1.2.0/1.2.0][2017-09-06=>2017-09-06]
+        [org.dom4j:dom4j:2.1.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.dom4j:dom4j:2.1.1]){No Check}[]{BSD-3-Clause}[2.1.1/2.1.4][2018-07-01=>2023-01-22]
+        [org.hibernate.common:hibernate-commons-annotations:5.1.0.Final]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.hibernate.common:hibernate-commons-annotations:5.1.0.Final]){No Check}[]{LGPL-2.1-or-later}[5.1.0.Final/6.0.6.Final][2018-11-08=>2023-01-26]
+        [javax.xml.bind:jaxb-api:2.3.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[javax.xml.bind:jaxb-api:2.3.1]){No Check}[]{Custom,CDDL-1.1}[2.3.1/2.4.0-b180830.0359][2018-09-12=>2018-08-30]
+        [org.glassfish.jaxb:jaxb-runtime:2.3.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.glassfish.jaxb:jaxb-runtime:2.3.1]){No Check}[]{Custom}[2.3.1/4.0.5][2018-09-12=>2024-03-06]
+        [org.mongodb:mongo-java-driver:3.6.4]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.mongodb:mongo-java-driver:3.6.4]){No Check}[]{Apache-2.0}[3.6.4/3.12.14][2018-05-29=>2023-06-07]
+        [org.w3c:dom:2.3.0-jaxb-1.0.6]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.w3c:dom:2.3.0-jaxb-1.0.6]){No Check}[]{}[2.3.0-jaxb-1.0.6/2.3.0-jaxb-1.0.6][2010-05-20=>2010-05-20]
+
+[INFO] 2024/05/23 01:32:07 sync.go:39: terminate task 56243910242664448
+[INFO] 2024/05/23 01:32:07 main.go:119: running task: 0, waiting task: 0
+[DEBUG] 2024/05/23 01:32:16 status.go:26: get task 56243910242664448 status: [Task Complete]
+[DEBUG] 2024/05/23 01:32:16 result.go:27: get task 56243910242664448 result
+[INFO] 2024/05/23 01:32:16 result.go:61: task 56243910242664448 components count: 66 load success
+[INFO] 2024/05/23 01:32:16 result.go:18: task 56243910242664448 components count: 66
+[INFO] 2024/05/23 01:32:16 task.go:54: delete task 56243910242664448
+[INFO] 2024/05/23 01:34:18 task.go:32: [0/10000] waiting task: 56243914607624192:[File|Normol|Fast|-1|false](http://192.168.172.77:8080/iast/static/app_package/fdc6e273-83de-4674-9c95-7ab15a0152ca/vulns_xin.war)
+[INFO] 2024/05/23 01:34:18 task.go:86: task 56243914607624192 status: [Task Waiting]
+[INFO] 2024/05/23 01:34:18 task.go:64: task 56243914607624192 progress: [Task Queuing]
+[INFO] 2024/05/23 01:34:18 main.go:100: running task: 1, waiting task: 0
+[INFO] 2024/05/23 01:34:18 task.go:86: task 56243914607624192 status: [Task Analyzing]
+[INFO] 2024/05/23 01:34:18 task.go:64: task 56243914607624192 progress: [Data Downloading]
+[INFO] 2024/05/23 01:34:19 task.go:64: task 56243914607624192 progress: [Task Scanning]
+[INFO] 2024/05/23 01:34:20 task.go:64: task 56243914607624192 progress: [Task Scanning]
+[INFO] 2024/05/23 01:34:20 task.go:64: task 56243914607624192 progress: [Cleaning Data]
+[INFO] 2024/05/23 01:34:20 task.go:64: task 56243914607624192 progress: [Searching Vulns]
+[INFO] 2024/05/23 01:34:21 result.go:51: task 56243914607624192 components count: 66 save success
+[INFO] 2024/05/23 01:34:21 task.go:64: task 56243914607624192 progress: [Task Compelete]
+[INFO] 2024/05/23 01:34:21 task.go:86: task 56243914607624192 status: [Task Complete]
+[DEBUG] 2024/05/23 01:34:21 engine.go:89: task 56243914607624192:
+
+[vulns_xin:]<None>[0]:(vulns_xin.war){No Check}[]{}[/][=>]
+    [commons-beanutils:commons-beanutils:1.8.0]<Java>[0]:(WEB-INF/lib/commons-beanutils-1.8.0.jar/[commons-beanutils:commons-beanutils:1.8.0]){Success}[]{}[1.8.0/1.9.4][2008-08-28=>2019-07-28]
+    [commons-codec:commons-codec:1.9]<Java>[0]:(WEB-INF/lib/commons-codec-1.9.jar/[commons-codec:commons-codec:1.9]){Success}[]{Apache-2.0}[1.9/1.16.1][2013-12-21=>2024-02-04]
+    [commons-collections:commons-collections:3.2.1]<Java>[0]:(WEB-INF/lib/commons-collections-3.2.1.jar/[commons-collections:commons-collections:3.2.1]){Success}[]{}[3.2.1/3.2.2][2008-04-15=>2015-11-12]
+    [commons-lang:commons-lang:2.5]<Java>[0]:(WEB-INF/lib/commons-lang-2.5.jar/[commons-lang:commons-lang:2.5]){Success}[]{}[2.5/2.6][2010-02-25=>2011-01-16]
+    [commons-logging:commons-logging:1.2]<Java>[0]:(WEB-INF/lib/commons-logging-1.2.jar/[commons-logging:commons-logging:1.2]){Success}[]{Apache-2.0}[1.2/1.3.0][2014-07-05=>2023-11-26]
+    [org.zenframework.z8.dependencies.commons:dom4j-1.6.1:2.0]<Java>[0]:(WEB-INF/lib/dom4j-1.6.1.jar/[org.zenframework.z8.dependencies.commons:dom4j-1.6.1:2.0]){Success}[]{MIT}[2.0/2.0][2018-02-14=>2018-02-14]
+    [net.sf.ezmorph:ezmorph:1.0.6]<Java>[0]:(WEB-INF/lib/ezmorph-1.0.6.jar/[net.sf.ezmorph:ezmorph:1.0.6]){Success}[]{Apache-2.0}[1.0.6/1.0.6][2008-12-26=>2008-12-26]
+    [com.sun.xml.fastinfoset:FastInfoset:1.2.15]<Java>[0]:(WEB-INF/lib/FastInfoset-1.2.15.jar/[com.sun.xml.fastinfoset:FastInfoset:1.2.15]){Success}[]{Custom,Apache-2.0}[1.2.15/2.1.1][2018-08-29=>2023-10-20]
+    [org.apache.httpcomponents:httpcore:4.4]<Java>[0]:(WEB-INF/lib/httpcore-4.4.jar/[org.apache.httpcomponents:httpcore:4.4]){Success}[]{Apache-2.0}[4.4/4.4.16][2014-12-14=>2022-11-26]
+    [com.sun.istack:istack-commons-runtime:3.0.7]<Java>[0]:(WEB-INF/lib/istack-commons-runtime-3.0.7.jar/[com.sun.istack:istack-commons-runtime:3.0.7]){Success}[]{Custom}[3.0.7/4.2.0][2018-08-29=>2023-04-14]
+    [one.gfw:javax.activation-api:1.2.0]<Java>[0]:(WEB-INF/lib/javax.activation-api-1.2.0.jar/[one.gfw:javax.activation-api:1.2.0]){Success}[]{}[1.2.0/1.2.0][2023-03-17=>2023-03-17]
+    [one.gfw:jaxb-api:2.3.1.1]<Java>[0]:(WEB-INF/lib/jaxb-api-2.3.1.jar/[one.gfw:jaxb-api:2.3.1.1]){Success}[]{}[2.3.1.1/2.3.1.1][2023-03-17=>2023-03-17]
+    [com.hynnet:json-lib:2.4]<Java>[0]:(WEB-INF/lib/json-lib-2.4-jdk15.jar/[com.hynnet:json-lib:2.4]){Success}[]{Apache-2.0}[2.4/2.4][2015-10-10=>2015-10-10]
+    [org.zenframework.z8.dependencies.commons:log4j-1.2.17:2.0]<Java>[0]:(WEB-INF/lib/log4j-1.2.17.jar/[org.zenframework.z8.dependencies.commons:log4j-1.2.17:2.0]){Success}[]{MIT}[2.0/2.0][2018-02-14=>2018-02-14]
+    [mysql:mysql-connector-java:8.0.22]<Java>[0]:(WEB-INF/lib/mysql-connector-java-8.0.22.jar/[mysql:mysql-connector-java:8.0.22]){Success}[]{GPL-2.0-only}[8.0.22/8.0.33][2020-09-10=>2023-03-07]
+    [com.oracle.database.jdbc:ojdbc8:19.3.0.0]<Java>[0]:(WEB-INF/lib/ojdbc8-19.3.0.0.jar/[com.oracle.database.jdbc:ojdbc8:19.3.0.0]){Success}[]{Custom}[19.3.0.0/23.3.0.23.09][2020-02-21=>2023-09-27]
+    [com.squareup.okio:okio:1.12.0]<Java>[0]:(WEB-INF/lib/okio-1.12.0.jar/[com.squareup.okio:okio:1.12.0]){Success}[]{Apache-2.0}[1.12.0/3.9.0][2017-04-11=>2024-03-13]
+    [com.oracle.database.ha:ons:19.3.0.0]<Java>[0]:(WEB-INF/lib/ons-19.3.0.0.jar/[com.oracle.database.ha:ons:19.3.0.0]){Success}[]{Custom}[19.3.0.0/23.3.0.23.09][2020-02-21=>2023-09-27]
+    [com.oracle.database.security:oraclepki:19.3.0.0]<Java>[0]:(WEB-INF/lib/oraclepki-19.3.0.0.jar/[com.oracle.database.security:oraclepki:19.3.0.0]){Success}[]{Custom}[19.3.0.0/23.3.0.23.09][2020-02-21=>2023-09-27]
+    [com.oracle.database.security:osdt_cert:19.3.0.0]<Java>[0]:(WEB-INF/lib/osdt_cert-19.3.0.0.jar/[com.oracle.database.security:osdt_cert:19.3.0.0]){Success}[]{Custom}[19.3.0.0/21.13.0.0][2020-02-21=>2024-02-07]
+    [com.oracle.database.security:osdt_core:19.3.0.0]<Java>[0]:(WEB-INF/lib/osdt_core-19.3.0.0.jar/[com.oracle.database.security:osdt_core:19.3.0.0]){Success}[]{Custom}[19.3.0.0/21.13.0.0][2020-02-21=>2024-02-07]
+    [com.google.protobuf:protobuf-java:3.11.4]<Java>[0]:(WEB-INF/lib/protobuf-java-3.11.4.jar/[com.google.protobuf:protobuf-java:3.11.4]){Success}[]{BSD-3-Clause}[3.11.4/4.26.0][2020-02-14=>2024-03-13]
+    [com.oracle.ojdbc:simplefan:19.3.0.0]<Java>[0]:(WEB-INF/lib/simplefan-19.3.0.0.jar/[com.oracle.ojdbc:simplefan:19.3.0.0]){Success}[]{Custom}[19.3.0.0/19.3.0.0][2019-09-13=>2019-09-13]
+    [org.jvnet.staxex:stax-ex:1.8]<Java>[0]:(WEB-INF/lib/stax-ex-1.8.jar/[org.jvnet.staxex:stax-ex:1.8]){Success}[]{CDDL-1.0}[1.8/2.1.0][2018-04-24=>2022-02-17]
+    [org.codehaus.woodstox:stax2-api:3.1.4]<Java>[0]:(WEB-INF/lib/stax2-api-3.1.4.jar/[org.codehaus.woodstox:stax2-api:3.1.4]){Success}[]{BSD-3-Clause}[3.1.4/4.2.2][2014-02-27=>2023-10-10]
+    [org.glassfish.jaxb:txw2:2.3.1]<Java>[0]:(WEB-INF/lib/txw2-2.3.1.jar/[org.glassfish.jaxb:txw2:2.3.1]){Success}[]{Custom}[2.3.1/4.0.5][2018-09-12=>2024-03-06]
+    [com.oracle.database.jdbc:ucp:19.3.0.0]<Java>[0]:(WEB-INF/lib/ucp-19.3.0.0.jar/[com.oracle.database.jdbc:ucp:19.3.0.0]){Success}[]{Custom}[19.3.0.0/23.3.0.23.09][2020-02-21=>2023-09-27]
+    [com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]){No Check}[]{}[0.0.1-SNAPSHOT/0.0.1-SNAPSHOT][=>]
+        [org.apache.httpcomponents:httpclient:4.4]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.apache.httpcomponents:httpclient:4.4]){No Check}[]{Apache-2.0}[4.4/4.5.14][2015-01-27=>2022-11-30]
+        [log4j:log4j:1.2.17]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[log4j:log4j:1.2.17]){No Check}[]{Apache-2.0}[1.2.17/1.2.17-atlassian-13][2012-05-26=>2020-05-28]
+        [org.apache.taglibs:taglibs-standard-impl:1.2.5]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.apache.taglibs:taglibs-standard-impl:1.2.5]){No Check}[]{Apache-2.0}[1.2.5/1.2.5][2015-03-10=>2015-03-10]
+        [org.apache.taglibs:taglibs-standard-spec:1.2.5]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.apache.taglibs:taglibs-standard-spec:1.2.5]){No Check}[]{Apache-2.0}[1.2.5/1.2.5][2015-03-10=>2015-03-10]
+        [org.apache.commons:commons-collections4:4.0]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.apache.commons:commons-collections4:4.0]){No Check}[]{Apache-2.0}[4.0/4.4][2013-11-20=>2019-07-05]
+        [commons-fileupload:commons-fileupload:1.3.2]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[commons-fileupload:commons-fileupload:1.3.2]){No Check}[]{Apache-2.0}[1.3.2/1.5][2016-05-23=>2023-02-01]
+        [commons-httpclient:commons-httpclient:3.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[commons-httpclient:commons-httpclient:3.1]){No Check}[]{}[3.1/3.1-atlassian-2][2007-08-21=>2019-04-14]
+        [commons-io:commons-io:2.5]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[commons-io:commons-io:2.5]){No Check}[]{}[2.5/2.15.1][2016-04-22=>2023-11-24]
+        [mysql:mysql-connector-java:5.1.6]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[mysql:mysql-connector-java:5.1.6]){No Check}[]{GPL-2.0-only}[5.1.6/8.0.33][2015-05-08=>2023-03-07]
+        [com.oracle.ojdbc:ojdbc8:19.3.0.0]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[com.oracle.ojdbc:ojdbc8:19.3.0.0]){No Check}[]{Custom}[19.3.0.0/19.3.0.0][2019-09-13=>2019-09-13]
+        [com.squareup.okhttp3:okhttp:3.7.0]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[com.squareup.okhttp3:okhttp:3.7.0]){No Check}[]{Apache-2.0}[3.7.0/5.0.0-alpha.12][2017-04-15=>2023-12-17]
+        [com.squareup.okhttp:okhttp:2.7.5]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[com.squareup.okhttp:okhttp:2.7.5]){No Check}[]{Apache-2.0}[2.7.5/2.7.5][2016-02-26=>2016-02-26]
+        [net.sf.json-lib:json-lib:2.4]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[net.sf.json-lib:json-lib:2.4]){No Check}[]{Apache-2.0}[2.4/2.4][2010-12-14=>2010-12-14]
+        [jstl:jstl:1.2]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[jstl:jstl:1.2]){No Check}[]{}[1.2/1.2][2006-07-21=>2006-07-21]
+        [dom4j:dom4j:1.6.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[dom4j:dom4j:1.6.1]){No Check}[]{}[1.6.1/1.6.1-atlassian-3][2005-09-20=>2021-04-26]
+        [org.jdom:jdom:1.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.jdom:jdom:1.1]){No Check}[]{Custom}[1.1/2.0.2][2007-11-14=>2012-06-09]
+        [xerces:xercesImpl:2.9.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[xerces:xercesImpl:2.9.1]){No Check}[]{Apache-2.0}[2.9.1/2.12.2][2008-10-01=>2022-01-27]
+        [xml-apis:xml-apis:1.4.01]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[xml-apis:xml-apis:1.4.01]){No Check}[]{}[1.4.01/2.0.2][2011-08-20=>2005-09-20]
+        [com.fasterxml.woodstox:woodstox-core:5.0.3]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[com.fasterxml.woodstox:woodstox-core:5.0.3]){No Check}[]{Apache-2.0}[5.0.3/6.6.1][2016-08-23=>2024-02-26]
+        [org.hsqldb:hsqldb:2.3.2]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.hsqldb:hsqldb:2.3.2]){No Check}[]{BSD-3-Clause}[2.3.2/2.7.2][2014-02-14=>2023-05-31]
+        [org.mybatis:mybatis:3.2.8]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.mybatis:mybatis:3.2.8]){No Check}[]{Apache-2.0}[3.2.8/3.5.15][2014-10-10=>2023-12-14]
+        [org.hibernate:hibernate-core:5.4.4.Final]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.hibernate:hibernate-core:5.4.4.Final]){No Check}[]{LGPL-2.1-or-later}[5.4.4.Final/6.4.4.Final][2019-07-30=>2024-02-08]
+        [org.jboss.logging:jboss-logging:3.3.2.Final]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.jboss.logging:jboss-logging:3.3.2.Final]){No Check}[]{Apache-2.0}[3.3.2.Final/3.5.3.Final][2018-02-14=>2023-07-06]
+        [javax.persistence:javax.persistence-api:2.2]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[javax.persistence:javax.persistence-api:2.2]){No Check}[]{Custom,EPL-1.0}[2.2/2.2][2017-08-21=>2017-08-21]
+        [org.javassist:javassist:3.24.0-GA]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.javassist:javassist:3.24.0-GA]){No Check}[]{LGPL-2.1,MPL-1.1,Apache-2.0}[3.24.0-GA/3.30.2-GA][2018-11-01=>2023-12-24]
+        [net.bytebuddy:byte-buddy:1.9.11]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[net.bytebuddy:byte-buddy:1.9.11]){No Check}[]{Apache-2.0}[1.9.11/1.14.12][2019-03-21=>2024-02-16]
+        [antlr:antlr:2.7.7]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[antlr:antlr:2.7.7]){No Check}[]{}[2.7.7/3.0ea8][2007-01-13=>2007-01-13]
+        [org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.1.1.Final]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.1.1.Final]){No Check}[]{CDDL-1.0}[1.1.1.Final/2.0.0.CR1][2018-01-19=>2019-08-28]
+        [org.jboss:jandex:2.0.5.Final]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.jboss:jandex:2.0.5.Final]){No Check}[]{}[2.0.5.Final/3.1.7][2018-03-07=>2024-03-14]
+        [com.fasterxml:classmate:1.3.4]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[com.fasterxml:classmate:1.3.4]){No Check}[]{Apache-2.0}[1.3.4/1.7.0][2017-09-09=>2024-01-03]
+        [javax.activation:javax.activation-api:1.2.0]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[javax.activation:javax.activation-api:1.2.0]){No Check}[]{Custom}[1.2.0/1.2.0][2017-09-06=>2017-09-06]
+        [org.dom4j:dom4j:2.1.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.dom4j:dom4j:2.1.1]){No Check}[]{BSD-3-Clause}[2.1.1/2.1.4][2018-07-01=>2023-01-22]
+        [org.hibernate.common:hibernate-commons-annotations:5.1.0.Final]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.hibernate.common:hibernate-commons-annotations:5.1.0.Final]){No Check}[]{LGPL-2.1-or-later}[5.1.0.Final/6.0.6.Final][2018-11-08=>2023-01-26]
+        [javax.xml.bind:jaxb-api:2.3.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[javax.xml.bind:jaxb-api:2.3.1]){No Check}[]{Custom,CDDL-1.1}[2.3.1/2.4.0-b180830.0359][2018-09-12=>2018-08-30]
+        [org.glassfish.jaxb:jaxb-runtime:2.3.1]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.glassfish.jaxb:jaxb-runtime:2.3.1]){No Check}[]{Custom}[2.3.1/4.0.5][2018-09-12=>2024-03-06]
+        [org.mongodb:mongo-java-driver:3.6.4]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.mongodb:mongo-java-driver:3.6.4]){No Check}[]{Apache-2.0}[3.6.4/3.12.14][2018-05-29=>2023-06-07]
+        [org.w3c:dom:2.3.0-jaxb-1.0.6]<Java>[0]:(META-INF/maven/com.baidu.openrasp/vulns/pom.xml/[com.baidu.openrasp:vulns:0.0.1-SNAPSHOT]/[org.w3c:dom:2.3.0-jaxb-1.0.6]){No Check}[]{}[2.3.0-jaxb-1.0.6/2.3.0-jaxb-1.0.6][2010-05-20=>2010-05-20]
+
+[INFO] 2024/05/23 01:34:21 sync.go:39: terminate task 56243914607624192
+[INFO] 2024/05/23 01:34:21 main.go:119: running task: 0, waiting task: 0
+[DEBUG] 2024/05/23 01:34:22 status.go:26: get task 56243914607624192 status: [Task Complete]
+[DEBUG] 2024/05/23 01:34:22 result.go:27: get task 56243914607624192 result
+[INFO] 2024/05/23 01:34:22 result.go:61: task 56243914607624192 components count: 66 load success
+[INFO] 2024/05/23 01:34:22 result.go:18: task 56243914607624192 components count: 66
+[INFO] 2024/05/23 01:34:22 task.go:54: delete task 56243914607624192
